@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@entities/*": ["src/entities/*"],
+      "@constants/*": ["src/constants/*"],
+      "@modules/*": ["src/modules/*"],
+      "@configs/*": ["src/configs/*"],
+      "@decorators/*": ["src/decorators/*"],
+      "@guards/*": ["src/guards/*"],
+      "@repositories/*": ["src/repositories/*"],
+      "@shared/*": ["src/shared/*"]
+    }
+  }
+}
