@@ -1,7 +1,7 @@
 import { DataSource, DataSourceOptions } from "typeorm";
 import { config } from "dotenv";
 import { SnakeNamingStrategy } from "typeorm-naming-strategies";
-
+import { SeederOptions } from "typeorm-extension";
 config();
 console.log("Connecting to databasezzz...", process.env.DATABASE_HOST);
 console.log("DATABASE_PORT", process.env.DATABASE_PORT);
@@ -9,7 +9,7 @@ console.log("DATABASE_NAME", process.env.DATABASE_NAME);
 console.log("NODE_ENV", process.env.NODE_ENV);
 console.log("DATABASE_SSL", process.env.DATABASE_SSL);
 console.log("DATABASE_USERNAME", process.env.DATABASE_USERNAME);
-export const dataSourceOptions: DataSourceOptions = {
+export const dataSourceOptions: DataSourceOptions & SeederOptions = {
   type: "postgres",
   host: process.env.DATABASE_HOST || "db",
   port: parseInt(process.env.DATABASE_PORT || "5432"),
@@ -32,6 +32,7 @@ export const dataSourceOptions: DataSourceOptions = {
   extra: {
     trustServerCertificate: true,
   },
+  seeds: ["src/database/seeds/**/*{.ts,.js}"],
 };
 
 export const dataSource = new DataSource(dataSourceOptions);

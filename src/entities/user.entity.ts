@@ -1,15 +1,15 @@
+// src/entities/user.entity.ts
 import {
   Entity,
+  PrimaryColumn,
   Column,
-  PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
 } from "typeorm";
-import { UserRole } from "@constants/user";
 
 @Entity("users")
 export class User {
-  @PrimaryGeneratedColumn("uuid")
+  @PrimaryColumn("uuid")
   id: string;
 
   @Column({ unique: true })
@@ -18,25 +18,21 @@ export class User {
   @Column()
   password: string;
 
-  @Column({ nullable: true })
-  firstName: string;
+  @Column()
+  first_name: string;
 
-  @Column({ nullable: true })
-  lastName: string;
+  @Column()
+  last_name: string;
 
-  @Column({
-    type: "enum",
-    enum: UserRole,
-    default: UserRole.USER,
-  })
-  role: UserRole;
+  @Column({ default: "user" })
+  role: string;
 
-  @Column({ default: false })
-  isActive: boolean;
+  @Column({ default: true })
+  is_active: boolean;
 
   @CreateDateColumn()
-  createdAt: Date;
+  created_at: Date;
 
   @UpdateDateColumn()
-  updatedAt: Date;
+  updated_at: Date;
 }

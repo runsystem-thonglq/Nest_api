@@ -23,4 +23,4 @@ RUN mkdir -p dist/shared/email && yarn build
 EXPOSE ${APP_PORT}
 
 # Lệnh mặc định để khởi chạy ứng dụng
-CMD ["yarn", "start:prod"]
+CMD ["yarn", "start:dev"]

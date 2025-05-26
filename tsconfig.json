@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "lib": ["es2020"],
+    "target": "es2020",
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
     "paths": {
       "@entities/*": ["src/entities/*"],
       "@constants/*": ["src/constants/*"],
@@ -23,5 +26,11 @@
       "@repositories/*": ["src/repositories/*"],
       "@shared/*": ["src/shared/*"]
     }
-  }
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "files": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
