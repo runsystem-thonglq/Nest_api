@@ -9,11 +9,11 @@ config();
 
 export default (): Config => {
   const credentials = getCredential(process.env.APP_ENV || "development");
-
+  console.log(credentials, 5);
   return {
     app: {
       nodeEnv: (process.env.NODE_ENV as NODE_ENV) || NODE_ENV.PRODUCTION,
-      port: +process.env.APP_PORT || 3000,
+      port: +process.env.APP_PORT || 3001,
       fallbackLanguage: "ja",
       headerLanguage: process.env.APP_HEADER_LANGUAGE || "x-custom-lang",
       clientAppUrl: process.env.CLIENT_APP_URL,
@@ -64,15 +64,15 @@ export default (): Config => {
         height: +process.env.IMAGE_SIZE_HEIGHT,
       },
     },
-    redis: {
-      host: process.env.REDIS_HOST || "redis",
-      port: +process.env.REDIS_PORT || 6379,
-      // retryStrategy: (times: number) => {
-      //   const delay = Math.min(times * 50, 2000);
-      //   return delay;
-      // },
-      // maxRetriesPerRequest: 3,
-    },
+    // redis: {
+    //   host: process.env.REDIS_HOST || "redis",
+    //   port: +process.env.REDIS_PORT || 6378,
+    //   // retryStrategy: (times: number) => {
+    //   //   const delay = Math.min(times * 50, 2000);
+    //   //   return delay;
+    //   // },
+    //   // maxRetriesPerRequest: 3,
+    // },
     jwt: {
       accessSecret:
         process.env.JWT_ACCESS_SECRET ||

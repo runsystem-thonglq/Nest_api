@@ -27,19 +27,19 @@ import { dataSourceOptions } from "./database/data-source";
         logging: configService.get("NODE_ENV") !== "production",
       }),
     }),
-    RedisModule.forRootAsync({
-      imports: [ConfigModule],
-      inject: [ConfigService],
-      useFactory: (configService: ConfigService) => ({
-        type: "single",
-        host: configService.get("REDIS_HOST"),
-        port: parseInt(configService.get("REDIS_PORT")),
-        connectTimeout: 10000,
-        retryStrategy: (times: number) => {
-          return Math.min(times * 50, 2000);
-        },
-      }),
-    }),
+    // RedisModule.forRootAsync({
+    //   imports: [ConfigModule],
+    //   inject: [ConfigService],
+    //   useFactory: (configService: ConfigService) => ({
+    //     type: "single",
+    //     host: configService.get("REDIS_HOST"),
+    //     port: parseInt(configService.get("REDIS_PORT")),
+    //     connectTimeout: 10000,
+    //     retryStrategy: (times: number) => {
+    //       return Math.min(times * 50, 2000);
+    //     },
+    //   }),
+    // }),
     ScheduleModule.forRoot(),
     BullModule.forRootAsync({
       imports: [ConfigModule],

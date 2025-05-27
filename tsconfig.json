@@ -1,36 +1,32 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "lib": ["es2020"],
-    "target": "es2020",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
-    "strictPropertyInitialization": false,
-    "resolveJsonModule": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
     "paths": {
+      "@configs/*": ["src/configs/*"],
       "@entities/*": ["src/entities/*"],
+      "@shared/*": ["src/shared/*"],
+      "@repositories/*": ["src/repositories/*"],
       "@constants/*": ["src/constants/*"],
       "@modules/*": ["src/modules/*"],
-      "@configs/*": ["src/configs/*"],
-      "@decorators/*": ["src/decorators/*"],
       "@guards/*": ["src/guards/*"],
-      "@repositories/*": ["src/repositories/*"],
-      "@shared/*": ["src/shared/*"]
+      "@decorators/*": ["src/decorators/*"],
+      "@features/*": ["src/features/*"]
     }
-  },
-  "ts-node": {
-    "require": ["tsconfig-paths/register"],
-    "files": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+  }
 }

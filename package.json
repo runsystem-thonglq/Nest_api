@@ -7,11 +7,11 @@
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build && yarn copy-templates",
+    "build": "nest build",
     "copy-templates": "mkdir -p dist/shared/email && cp -r src/shared/email/* dist/shared/email/",
     "format": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
     "start": "nest start",
-    "start:dev": "nest start --watch && yarn copy-templates",
+    "start:dev": "nest start --watch",
     "start:preview": "nest start --builder webpack",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",

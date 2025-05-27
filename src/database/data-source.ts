@@ -11,11 +11,16 @@ console.log("DATABASE_SSL", process.env.DATABASE_SSL);
 console.log("DATABASE_USERNAME", process.env.DATABASE_USERNAME);
 export const dataSourceOptions: DataSourceOptions & SeederOptions = {
   type: "postgres",
-  host: process.env.DATABASE_HOST || "db",
-  port: parseInt(process.env.DATABASE_PORT || "5432"),
-  username: process.env.DATABASE_USERNAME || "postgres",
-  password: process.env.DATABASE_PASSWORD || "postgres",
-  database: process.env.DATABASE_NAME || "db_nest_api",
+  // host: process.env.DATABASE_HOST || "db",
+  // port: parseInt(process.env.DATABASE_PORT || "5432"),
+  // username: process.env.DATABASE_USERNAME || "postgres",
+  // password: process.env.DATABASE_PASSWORD || "postgres",
+  // database: process.env.DATABASE_NAME || "db_nest_api",
+  host: "localhost",
+  port: 3306,
+  username: "root",
+  password: "root",
+  database: "sys",
   entities: ["src/**/*.entity.ts"], // thay vì "dist/**/*.entity{.ts,.js}"
   migrations: ["src/database/migrations/*{.ts,.js}"],
   // synchronize: false,

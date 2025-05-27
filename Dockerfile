@@ -1,26 +1,26 @@
-# Sử dụng hình ảnh Node.js nhẹ
+# Use Node.js lightweight image
 FROM node:18-alpine
 
-# Thiết lập thư mục làm việc rõ ràng
+# Set clear working directory
 WORKDIR /app
 
-# Sao chép các tệp cần thiết để cài đặt phụ thuộc
-COPY package*.json ./
+# Copy package files for dependency installation
+COPY package*.json yarn.lock ./
 
-# Cài đặt các phụ thuộc
+# Install dependencies
 RUN yarn install --frozen-lockfile
 
-# Xóa cache của yarn để giảm kích thước hình ảnh
+# Clean yarn cache to reduce image size
 RUN yarn cache clean
 
-# Sao chép toàn bộ mã nguồn vào container
+# Copy entire source code into container
 COPY . .
 
-# Biên dịch mã nguồn (nếu cần)
-RUN mkdir -p dist/shared/email && yarn build
+# Build the application
+RUN yarn build
 
-# Mở cổng ứng dụng
+# Expose application port
 EXPOSE ${APP_PORT}
 
-# Lệnh mặc định để khởi chạy ứng dụng
+# For development: use start:dev, for production: use start:prod
 CMD ["yarn", "start:dev"]

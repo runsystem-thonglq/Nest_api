@@ -3,7 +3,7 @@ import { NODE_ENV } from "@constants/index";
 export interface Config {
   app: AppConfig;
   database: DatabaseConfig;
-  redis: RedisConfig;
+  // redis: RedisConfig;
   rollbar: RollbarConfig;
   common: CommonConfig;
   scoutApm: ScoutApmConfig;
