@@ -1,61 +1,62 @@
-import { MigrationInterface, QueryRunner, Table } from 'typeorm';
+import { MigrationInterface, QueryRunner, Table } from "typeorm";
 
 export class CreateUsersTable1677721600000 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
+    // const uuid = uuid_generate_v4;
     await queryRunner.createTable(
       new Table({
-        name: 'users',
+        name: "users",
         columns: [
           {
-            name: 'id',
-            type: 'uuid',
+            name: "id",
+            type: "uuid",
             isPrimary: true,
-            generationStrategy: 'uuid',
-            default: 'uuid_generate_v4()',
+            generationStrategy: "uuid",
+            default: "uuid_generate_v4()",
           },
           {
-            name: 'email',
-            type: 'varchar',
+            name: "email",
+            type: "varchar",
             isUnique: true,
           },
           {
-            name: 'password',
-            type: 'varchar',
+            name: "password",
+            type: "varchar",
           },
           {
-            name: 'first_name',
-            type: 'varchar',
+            name: "first_name",
+            type: "varchar",
             isNullable: true,
           },
           {
-            name: 'last_name',
-            type: 'varchar',
+            name: "last_name",
+            type: "varchar",
             isNullable: true,
           },
           {
-            name: 'role',
-            type: 'enum',
-            enum: ['admin', 'user'],
+            name: "role",
+            type: "enum",
+            enum: ["admin", "user"],
             default: "'user'",
           },
           {
-            name: 'is_active',
-            type: 'boolean',
+            name: "is_active",
+            type: "boolean",
             default: false,
           },
           {
-            name: 'created_at',
-            type: 'timestamp',
-            default: 'now()',
+            name: "created_at",
+            type: "timestamp",
+            default: "now()",
           },
           {
-            name: 'updated_at',
-            type: 'timestamp',
-            default: 'now()',
+            name: "updated_at",
+            type: "timestamp",
+            default: "now()",
           },
         ],
       }),
-      true,
+      true
     );
 
     // Tạo extension uuid-ossp nếu chưa có
@@ -63,6 +64,6 @@ export class CreateUsersTable1677721600000 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropTable('users');
+    await queryRunner.dropTable("users");
   }
-} 
+}
