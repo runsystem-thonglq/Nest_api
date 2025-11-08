@@ -2,27 +2,25 @@ import { DataSource, DataSourceOptions } from "typeorm";
 import { config } from "dotenv";
 import { SnakeNamingStrategy } from "typeorm-naming-strategies";
 import { SeederOptions } from "typeorm-extension";
+import path from "path";
+
 config();
 console.log("Connecting to databasezzz...", process.env.DATABASE_HOST);
 console.log("DATABASE_PORT", process.env.DATABASE_PORT);
 console.log("DATABASE_NAME", process.env.DATABASE_NAME);
 console.log("NODE_ENV", process.env.NODE_ENV);
 console.log("DATABASE_SSL", process.env.DATABASE_SSL);
-console.log("DATABASE_USERNAME", process.env.DATABASE_USERNAME);
+console.log("DATABASE_USERNAME", process.env.DATABASE_USERNAME),
+  process.env.NODE_ENV;
 export const dataSourceOptions: DataSourceOptions & SeederOptions = {
   type: "postgres",
-  // host: process.env.DATABASE_HOST || "db",
-  // port: parseInt(process.env.DATABASE_PORT || "5432"),
-  // username: process.env.DATABASE_USERNAME || "postgres",
-  // password: process.env.DATABASE_PASSWORD || "postgres",
-  // database: process.env.DATABASE_NAME || "db_nest_api",
-  host: "db",
-  port: 5432,
-  username: "postgres",
-  password: "postgres",
-  database: "db_nest_api",
-  entities: ["src/**/*.entity.ts"], // thay vì "dist/**/*.entity{.ts,.js}"
-  migrations: ["src/database/migrations/*{.ts,.js}"],
+  host: process.env.DATABASE_HOST || "db",
+  port: parseInt(process.env.DATABASE_PORT || "5432"),
+  username: process.env.DATABASE_USERNAME || "postgres",
+  password: process.env.DATABASE_PASSWORD || "postgres",
+  database: process.env.DATABASE_NAME || "db_nest_api",
+  // entities: ["src/**/*.entity.ts"], // thay vì "dist/**/*.entity{.ts,.js}"
+  // migrations: ["src/database/migrations/*{.ts,.js}"],
   // synchronize: false,
   synchronize: process.env.NODE_ENV !== "production",
   namingStrategy: new SnakeNamingStrategy(),
@@ -30,14 +28,32 @@ export const dataSourceOptions: DataSourceOptions & SeederOptions = {
     process.env.DATABASE_SSL === "true" ? { rejectUnauthorized: false } : false,
   connectTimeoutMS: 10000,
   maxQueryExecutionTime: 10000,
-  logging: process.env.NODE_ENV !== "production",
+  logging: true,
+  // logging: process.env.NODE_ENV !== "production",
   migrationsRun: true,
   migrationsTableName: "migrations",
   migrationsTransactionMode: "each",
   extra: {
     trustServerCertificate: true,
   },
-  seeds: ["src/database/seeds/**/*{.ts,.js}"],
+  // seeds: ["src/database/seeds/**/*{.ts,.js}"],
+  // ... existing code ...
+  entities: [
+    process.env.NODE_ENV === "production"
+      ? "dist/**/*.entity.js"
+      : "src/**/*.entity.ts",
+  ],
+  migrations: [
+    process.env.NODE_ENV === "production"
+      ? "dist/database/migrations/*.js"
+      : "src/database/migrations/*{.ts,.js}",
+  ],
+  seeds: [
+    process.env.NODE_ENV === "production"
+      ? "dist/database/seeds/**/*{.js}"
+      : "src/database/seeds/**/*{.ts,.js}",
+  ],
+  // ... existing code ...
 };
 
 export const dataSource = new DataSource(dataSourceOptions);

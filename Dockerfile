@@ -1,26 +1,22 @@
-# Use Node.js lightweight image
+# Dockerfile.dev
 FROM node:18-alpine
 
-# Set clear working directory
+# Tạo thư mục làm việc
 WORKDIR /app
 
-# Copy package files for dependency installation
-COPY package*.json yarn.lock ./
+# Copy package.json & yarn.lock để install dependencies
+COPY package.json yarn.lock ./
 
-# Install dependencies
-RUN yarn install --frozen-lockfile
+# Cài dependencies (giữ node_modules trong container)
+RUN yarn install
 
-# Clean yarn cache to reduce image size
-RUN yarn cache clean
-
-# Copy entire source code into container
+# Copy toàn bộ code
 COPY . .
 
-# Build the application
 RUN yarn build
 
-# Expose application port
-EXPOSE ${APP_PORT}
+# Cho NestJS dev hot-reload (polling cho Docker)
+ENV CHOKIDAR_USEPOLLING=true
 
-# For development: use start:dev, for production: use start:prod
+# Chạy dev server
 CMD ["yarn", "start:dev"]

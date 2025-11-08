@@ -11,6 +11,7 @@ import { HandlebarsAdapter } from "@nestjs-modules/mailer/dist/adapters/handleba
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
 import { dataSourceOptions } from "./database/data-source";
+import { ToeicModule } from './toeic/toeic.module';
 
 @Module({
   imports: [
@@ -75,6 +76,7 @@ import { dataSourceOptions } from "./database/data-source";
         },
       }),
     }),
+    ToeicModule,
   ],
   controllers: [AppController],
   providers: [AppService],

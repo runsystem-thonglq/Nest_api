@@ -27,6 +27,6 @@
       "@guards/*": ["src/guards/*"],
       "@decorators/*": ["src/decorators/*"],
       "@features/*": ["src/features/*"]
-    }
+    },
   }
 }
