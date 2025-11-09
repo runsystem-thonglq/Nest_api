@@ -1,9 +1,7 @@
 import { Module } from "@nestjs/common";
-import { CacheModule } from "@nestjs/cache-manager";
 
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import { RedisModule } from "@nestjs-modules/ioredis";
 import { ScheduleModule } from "@nestjs/schedule";
 import { BullModule } from "@nestjs/bull";
 import { MailerModule } from "@nestjs-modules/mailer";
@@ -11,7 +9,7 @@ import { HandlebarsAdapter } from "@nestjs-modules/mailer/dist/adapters/handleba
 import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
 import { dataSourceOptions } from "./database/data-source";
-import { ToeicModule } from './toeic/toeic.module';
+import { ToeicModule } from "@modules/toeic/toeic.module";
 
 @Module({
   imports: [

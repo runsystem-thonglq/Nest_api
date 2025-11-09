@@ -36,24 +36,9 @@ export const dataSourceOptions: DataSourceOptions & SeederOptions = {
   extra: {
     trustServerCertificate: true,
   },
-  // seeds: ["src/database/seeds/**/*{.ts,.js}"],
-  // ... existing code ...
-  entities: [
-    process.env.NODE_ENV === "production"
-      ? "dist/**/*.entity.js"
-      : "src/**/*.entity.ts",
-  ],
-  migrations: [
-    process.env.NODE_ENV === "production"
-      ? "dist/database/migrations/*.js"
-      : "src/database/migrations/*{.ts,.js}",
-  ],
-  seeds: [
-    process.env.NODE_ENV === "production"
-      ? "dist/database/seeds/**/*{.js}"
-      : "src/database/seeds/**/*{.ts,.js}",
-  ],
-  // ... existing code ...
+  entities: [__dirname + "/../entities/**/*{.ts,.js}"],
+  migrations: [__dirname + "/migrations/**/*{.ts,.js}"],
+  seeds: [__dirname + "/seeds/*.ts"],
 };
 
 export const dataSource = new DataSource(dataSourceOptions);

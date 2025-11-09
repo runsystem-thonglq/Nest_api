@@ -1,22 +1,22 @@
-# Dockerfile.dev
-FROM node:18-alpine
+FROM node:20.11-alpine
 
-# Tạo thư mục làm việc
+# Install ffmpeg
+RUN apk update && apk add --no-cache ffmpeg
+
+# Set the working directory
 WORKDIR /app
 
-# Copy package.json & yarn.lock để install dependencies
+# Copy package.json and yarn.lock
 COPY package.json yarn.lock ./
 
-# Cài dependencies (giữ node_modules trong container)
+# Install dependencies with Yarn
 RUN yarn install
 
-# Copy toàn bộ code
-COPY . .
+# Copy the application files
+# COPY . .
 
-RUN yarn build
+# Expose the port the app runs on
+EXPOSE 3000
 
-# Cho NestJS dev hot-reload (polling cho Docker)
-ENV CHOKIDAR_USEPOLLING=true
-
-# Chạy dev server
-CMD ["yarn", "start:dev"]
+# Start the application
+CMD ["yarn", "start:devw"]
