@@ -1,5 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from "typeorm";
 import { ToeicGroupQuestion } from "./toiec-group-question.entity";
+import { ToeicTest } from "./toeic.entity";
 
 @Entity("toeic_questions")
 export class ToeicQuestion {
@@ -26,4 +27,9 @@ export class ToeicQuestion {
     nullable: true,
   })
   group: ToeicGroupQuestion;
+  @ManyToOne(() => ToeicTest, (tes) => tes.questions, {
+    onDelete: "CASCADE",
+    nullable: true,
+  })
+  test: ToeicTest;
 }

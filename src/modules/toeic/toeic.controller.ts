@@ -5,6 +5,8 @@ import {
   Body,
   UploadedFile,
   UseInterceptors,
+  Param,
+  ParseIntPipe,
 } from "@nestjs/common";
 import { FileInterceptor } from "@nestjs/platform-express";
 import { ToeicService } from "./toeic.service";
@@ -26,5 +28,10 @@ export class ToeicController {
   @Get()
   async findAll() {
     return this.toeicService.findAll();
+  }
+
+  @Get(":id")
+  async getToeicTest(@Param("id", ParseIntPipe) id: number) {
+    return this.toeicService.findById(id);
   }
 }

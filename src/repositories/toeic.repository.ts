@@ -8,7 +8,16 @@ export class ToeicRepository extends Repository<ToeicTest> {
     super(ToeicTest, dataSource.createEntityManager());
   }
 
-  async findAllWithParts() {
-    return this.find({ relations: ["parts", "parts.questions"] });
+  async findFullTestById(testId: number) {
+    return this.findOne({
+      where: { id: testId },
+      relations: {
+        questions: true,
+      },
+    });
+  }
+
+  async findAll() {
+    return this.findAll();
   }
 }

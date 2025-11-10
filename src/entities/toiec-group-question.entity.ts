@@ -1,5 +1,12 @@
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm";
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  OneToMany,
+  ManyToOne,
+} from "typeorm";
 import { ToeicQuestion } from "./toeic-question.entity";
+import { ToeicTest } from "./toeic.entity";
 
 @Entity("toeic_group_questions")
 export class ToeicGroupQuestion {
@@ -17,4 +24,9 @@ export class ToeicGroupQuestion {
     eager: false, // ✅ Thêm dòng này
   })
   questions: ToeicQuestion[];
+  @ManyToOne(() => ToeicTest, (q) => q.groups, {
+    cascade: true,
+    eager: false, // ✅ Thêm dòng này
+  })
+  test: ToeicTest;
 }
