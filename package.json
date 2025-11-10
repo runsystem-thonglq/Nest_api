@@ -26,7 +26,7 @@
     "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js -d src/database/data-source.ts",
     "db:create": "tsx ./node_modules/typeorm-extension/dist/cli/index.js db:create -r dist/database -d data-source.js -f data-source.js",
     "db:drop": "yarn typeorm schema:drop",
-    "db:generate": "yarn typeorm migration:generate src/database/migrations/migrations",
+    "db:generate": "yarn typeorm migration:generate src/database/migrations",
     "db:run": "yarn typeorm migration:run",
     "db:rollback": "yarn typeorm migration:revert",
     "db:create:run": "yarn db:create && yarn db:run",

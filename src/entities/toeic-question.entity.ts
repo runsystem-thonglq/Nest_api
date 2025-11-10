@@ -1,10 +1,13 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from "typeorm";
-import { ToeicPart } from "./toeic-part.entity";
+import { ToeicGroupQuestion } from "./toiec-group-question.entity";
 
 @Entity("toeic_questions")
 export class ToeicQuestion {
   @PrimaryGeneratedColumn()
   id: number;
+
+  @Column({ name: "question_id", nullable: true })
+  question_id: number;
 
   @Column({ type: "text" })
   question: string;
@@ -18,6 +21,9 @@ export class ToeicQuestion {
   @Column({ nullable: true, type: "text" })
   explanation: string;
 
-  @ManyToOne(() => ToeicPart, (part) => part.questions, { onDelete: "CASCADE" })
-  part: ToeicPart;
+  @ManyToOne(() => ToeicGroupQuestion, (group) => group.questions, {
+    onDelete: "CASCADE",
+    nullable: true,
+  })
+  group: ToeicGroupQuestion;
 }
