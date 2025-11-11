@@ -25,7 +25,7 @@ export class ToeicService {
       // ====== Khởi tạo AI (chưa sử dụng trong ví dụ) ======
       const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY || "");
       const model = genAI.getGenerativeModel({
-        model: "gemini-2.5-flash-lite",
+        model: "gemini-2.5-flash",
       });
       // const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
@@ -51,6 +51,14 @@ export class ToeicService {
             { text: p },
           ])
         )
+      );
+      fs.writeFileSync(
+        path.join(process.cwd(), "src", "AI", "output", `part5.txt`),
+        r5.response.candidates[0].content.parts[0].text
+      );
+      fs.writeFileSync(
+        path.join(process.cwd(), "src", "AI", "output", `part6.txt`),
+        r6.response.candidates[0].content.parts[0].text
       );
 
       const raw5 = parseJson(r5.response.candidates[0].content.parts[0].text);
@@ -311,47 +319,62 @@ export class ToeicService {
   }
 
   async findAll() {
-    return this.toeicRepository.find({
+    const data = await this.toeicRepository.find({
       relations: ["questions"],
     });
+
+    return {
+      data: data,
+    };
   }
 
   async findById(testId: number) {
-    const test = await this.toeicRepository.findFullTestById(testId);
+    try {
+      const test = await this.toeicRepository.findFullTestById(testId);
 
-    if (!test) {
-      throw new BadRequestException(`Không tìm thấy bài test id=${testId}`);
-    }
+      if (!test) {
+        throw new BadRequestException(`Không tìm thấy bài test id=${testId}`);
+      }
 
-    // Part 5: question thuộc test
-    const part5 = test.questions.map((q) => ({
-      id: q.question_id,
-      part: 5,
-      question: q.question,
-      options: q.options,
-      answer: q.answer,
-      explanation: JSON.parse(q.explanation || "{}"),
-    }));
-
-    // Part 6: group có context + các câu hỏi
-    const groups = await this.toeicGroupRepository.find({
-      relations: ["questions"],
-    });
-
-    const part6 = groups.map((g) => ({
-      part: 6,
-      passage_id: g.id,
-      title: g.title,
-      context: g.context,
-      questions: g.questions.map((q) => ({
+      // Part 5: question thuộc test
+      const part5 = test.questions.map((q) => ({
         id: q.question_id,
+        part: 5,
         question: q.question,
         options: q.options,
         answer: q.answer,
         explanation: JSON.parse(q.explanation || "{}"),
-      })),
-    }));
+      }));
 
-    return [...part5, ...part6];
+      // Part 6: group có context + các câu hỏi
+      const groups = await this.toeicGroupRepository.find({
+        relations: ["questions"],
+      });
+
+      const part6 = groups.map((g) => ({
+        part: 6,
+        passage_id: g.id,
+        title: g.title,
+        context: g.context,
+        id: g.questions?.[0]?.id || 0,
+        questions: g.questions.map((q) => ({
+          id: q.question_id,
+          question: q.question,
+          options: q.options,
+          answer: q.answer,
+          explanation: JSON.parse(q.explanation || "{}"),
+        })),
+      }));
+
+      return {
+        data: [...part5, ...part6].sort((a, b) => a.id - b.id),
+      };
+    } catch (error) {
+      throw new BadRequestException({
+        message:
+          "Lỗi khi lấy bài test: " + (error.message ? error.message : error),
+        detail: error.message ? error.message : error,
+      });
+    }
   }
 }

@@ -1,0 +1,452 @@
+```json
+[
+  {
+    "part": 6,
+    "passage_id": 1,
+    "title": "Online Shopping Information",
+    "context": "Thank you for shopping with Danforth Fashions online. Our quality-control team carefully inspects all products _____(131) packaging to ensure customer satisfaction. _____(132). If not, we make exchanges or returns easy. Simply contact us at service@danforthfashions.com if you need a different size, color, or pattern—or if you are dissatisfied for any reason. Your exchange _____(133) right away. To return an item for a refund, use the prepaid return shipping label included with your order and send it back to us in its original packaging unused and undamaged. We issue refunds to the original method of payment, _____(134) the return shipping fee.",
+    "questions": [
+      {
+        "id": 131,
+        "question": "_____(131) packaging to ensure customer satisfaction.",
+        "options": {
+          "A": "in case",
+          "B": "as much as",
+          "C": "prior to",
+          "D": "in keeping with"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 132,
+        "question": "_____(132). If not, we make exchanges or returns easy.",
+        "options": {
+          "A": "We hope you are entirely pleased with your purchase.",
+          "B": "We expect to be redesigning our Web site this summer.",
+          "C": "We value all of our loyal customers.",
+          "D": "We noticed that your billing address has changed."
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 133,
+        "question": "Your exchange _____(133) right away.",
+        "options": {
+          "A": "will be processed",
+          "B": "was processed",
+          "C": "is processing",
+          "D": "to be processing"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 134,
+        "question": "We issue refunds to the original method of payment, _____(134) the return shipping fee.",
+        "options": {
+          "A": "past",
+          "B": "above",
+          "C": "aboard",
+          "D": "minus"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "part": 6,
+    "passage_id": 2,
+    "title": "Alden-Apner Industries E-mail Software Notice",
+    "context": "Attention, Alden-Apner Industries Employees: Please remember that the switch to our new e-mail software will begin at 11:00 P.M. on Sunday, May 2. All _____(135) information in your account, including contacts and calendar events, will be moved to the new system by 4:00 A.M. on Monday, May 3. Though we are working diligently to anticipate and provide solutions for all potential issues, some employees may experience difficulty _____(136) attempting to log in to their accounts after the switch. In addition, there is a remote possibility that some information may be lost. _____(137), be sure to back up any critical e-mail files as soon as possible. _____(138). A training session will be scheduled next week to familiarize employees with key functions of the new software.",
+    "questions": [
+      {
+        "id": 135,
+        "question": "All _____(135) information in your account, including contacts and calendar events, will be moved to the new system by 4:00 A.M. on Monday, May 3.",
+        "options": {
+          "A": "existed",
+          "B": "existence",
+          "C": "to exist",
+          "D": "existing"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 136,
+        "question": "some employees may experience difficulty _____(136) attempting to log in to their accounts after the switch.",
+        "options": {
+          "A": "when",
+          "B": "plus",
+          "C": "already",
+          "D": "whose"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 137,
+        "question": "In addition, there is a remote possibility that some information may be lost. _____(137), be sure to back up any critical e-mail files as soon as possible.",
+        "options": {
+          "A": "Previously",
+          "B": "Otherwise",
+          "C": "Even so",
+          "D": "For this reason"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 138,
+        "question": "_____(138). A training session will be scheduled next week to familiarize employees with key functions of the new software.",
+        "options": {
+          "A": "The new software will be ordered this week.",
+          "B": "The current system will be reactivated in June.",
+          "C": "If you need assistance with this, please contact the IT department.",
+          "D": "In that case, you must complete the installation yourself."
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "part": 6,
+    "passage_id": 3,
+    "title": "JWF's New Budget Director",
+    "context": "From: Hong Truong <htruong@jansenwebbfoundation.ca>\nSent: Friday, 16 November\nTo: Staff, Friends, and Stakeholders\nSubject: JWF's new budget director\n\nTo the JWF team and our community partners:\n\n_____(139). I just want to let you know that Sofia Vargas _____(140) as the Jansen-Webb Foundation's new budget director. Ms. Vargas has a strong background in fiscal _____(141) within the nonprofit sector. Ms. Vargas brings with her a wealth of experience in organizational finance, including most recently at The Lawton Children's Centre in Winnipeg. Ms. Vargas started her employment with us this morning, so please stop in and introduce _____(142) to her.\n\nBest,\n\nHong Truong\nCEO, Jansen-Webb Foundation",
+    "questions": [
+      {
+        "id": 139,
+        "question": "_____(139). I just want to let you know that Sofia Vargas _____(140) as the Jansen-Webb Foundation's new budget director.",
+        "options": {
+          "A": "This is a request to be prompt.",
+          "B": "Thanks for the generous contribution.",
+          "C": "All are welcome here.",
+          "D": "I hope that all are well."
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 140,
+        "question": "I just want to let you know that Sofia Vargas _____(140) as the Jansen-Webb Foundation's new budget director.",
+        "options": {
+          "A": "is hiring",
+          "B": "will be hired",
+          "C": "has been hired",
+          "D": "is being hired"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 141,
+        "question": "Ms. Vargas has a strong background in fiscal _____(141) within the nonprofit sector.",
+        "options": {
+          "A": "referral",
+          "B": "administrator",
+          "C": "running",
+          "D": "management"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 142,
+        "question": "Ms. Vargas started her employment with us this morning, so please stop in and introduce _____(142) to her.",
+        "options": {
+          "A": "yourself",
+          "B": "him",
+          "C": "them",
+          "D": "ourselves"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "part": 6,
+    "passage_id": 4,
+    "title": "Jamaica National Tourist Organization Offers Free Cultural Passes",
+    "context": "The Jamaica National Tourist Organization (JAMTO) announces an exciting new program that provides free entry to a variety of cultural attractions. The program is sponsored by the JAMTO _____(143) the hotels and businesses listed on the back of this flyer. Together we _____(144) you to take advantage of some of the finest cultural and educational experiences that Jamaica has to offer. _____(145) attractions include the Caribbean National Gardens, Montego Bay Potters Gallery, Jamaican Music Experience, and many others. To obtain your pass, visit our Web site at www.jamto.org/freepass or stop by any JAMTO office. One pass is valid for up to five people. _____(146).",
+    "questions": [
+      {
+        "id": 143,
+        "question": "The program is sponsored by the JAMTO _____(143) the hotels and businesses listed on the back of this flyer.",
+        "options": {
+          "A": "despite",
+          "B": "instead of",
+          "C": "except for",
+          "D": "along with"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 144,
+        "question": "Together we _____(144) you to take advantage of some of the finest cultural and educational experiences that Jamaica has to offer.",
+        "options": {
+          "A": "invite",
+          "B": "invited",
+          "C": "may invite",
+          "D": "were inviting"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 145,
+        "question": "_____(145) attractions include the Caribbean National Gardens, Montego Bay Potters Gallery, Jamaican Music Experience, and many others.",
+        "options": {
+          "A": "Early",
+          "B": "Past",
+          "C": "Affordable",
+          "D": "Participating"
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      },
+      {
+        "id": 146,
+        "question": "One pass is valid for up to five people. _____(146).",
+        "options": {
+          "A": "Thank you for your order.",
+          "B": "It can be used for three days.",
+          "C": "The bus runs only on weekdays.",
+          "D": "All major credit cards are accepted."
+        },
+        "answer": null,
+        "explanation": {
+          "vi": {
+            "option_analysis": {
+              "A": "Giải thích chi tiết từng lựa chọn: nghĩa, loại từ, lý do đúng/sai.",
+              "B": "...",
+              "C": "...",
+              "D": "..."
+            },
+            "correct_answer": "✅ Đáp án đúng: [Chưa cung cấp]",
+            "sentence_explanation": "💬 Giải thích câu hoàn chỉnh bằng tiếng Việt.",
+            "translation": "Dịch toàn câu sang tiếng Việt.",
+            "vocab_notes": "📘 Ghi nhớ: Giải thích ngắn gọn các từ vựng chính (từ loại, nghĩa, ví dụ).",
+            "grammar_notes": "👉 Nêu rõ điểm ngữ pháp hoặc cấu trúc ngữ pháp chính giúp chọn đúng đáp án."
+          }
+        }
+      }
+    ]
+  }
+]
+```

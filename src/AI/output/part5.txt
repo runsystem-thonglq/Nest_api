@@ -1,0 +1,904 @@
+```json
+[
+  {
+    "id": 101,
+    "part": 5,
+    "question": "Vantage Automotive Design has recently ------- with the Pallax Company.",
+    "options": {
+      "A": "merge",
+      "B": "merger",
+      "C": "merged",
+      "D": "merging"
+    },
+    "answer": "C",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Merge (động từ nguyên mẫu): 'hợp nhất'. Không phù hợp với cấu trúc 'has recently + V_ed/V3'.",
+          "B": "Merger (danh từ): 'sự sáp nhập'. Không phải là dạng động từ cần thiết.",
+          "C": "Merged (quá khứ phân từ của merge): 'đã hợp nhất'. Đây là dạng đúng để hoàn thành thì hiện tại hoàn thành (present perfect tense) 'has recently merged'.",
+          "D": "Merging (hiện tại phân từ/danh động từ): 'đang hợp nhất' hoặc 'việc hợp nhất'. Không phù hợp trong ngữ cảnh này vì cần một động từ ở dạng quá khứ phân từ."
+        },
+        "correct_answer": "✅ Đáp án đúng: C. merged",
+        "sentence_explanation": "Câu yêu cầu một động từ ở thì hiện tại hoàn thành (present perfect tense) vì có trạng từ 'recently' và cấu trúc 'has + V_ed/V3'. 'Merged' là quá khứ phân từ của 'merge', hoàn thành cấu trúc này.",
+        "translation": "Vantage Automotive Design gần đây đã hợp nhất với Công ty Pallax.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Merge (v): hợp nhất, sáp nhập.\n- Merger (n): sự sáp nhập.\n- Recently (adv): gần đây.",
+        "grammar_notes": "👉 Thì hiện tại hoàn thành: S + has/have + PII (past participle). Trạng từ 'recently' thường đi kèm với thì này."
+      },
+      "en": {
+        "summary": "The sentence requires a verb in the past participle form to complete the present perfect tense 'has recently _______'. 'Merged' is the correct past participle of 'merge', meaning 'to combine or cause to combine to form a single entity'."
+      }
+    }
+  },
+  {
+    "id": 102,
+    "part": 5,
+    "question": "Rain is predicted this weekend, ------- the office picnic will have to be postponed.",
+    "options": {
+      "A": "so",
+      "B": "for",
+      "C": "but",
+      "D": "nor"
+    },
+    "answer": "A",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "So (liên từ): 'vì vậy, do đó'. Dùng để chỉ kết quả. Phù hợp vì việc mưa được dự đoán dẫn đến kết quả là buổi dã ngoại phải hoãn lại.",
+          "B": "For (liên từ): 'bởi vì'. Dùng để chỉ lý do. Không phù hợp vì vế sau là kết quả chứ không phải lý do cho vế trước.",
+          "C": "But (liên từ): 'nhưng'. Dùng để chỉ sự đối lập. Không phù hợp vì hai vế có mối quan hệ nguyên nhân-kết quả.",
+          "D": "Nor (liên từ): 'cũng không'. Dùng để bổ sung một ý phủ định sau một ý phủ định khác. Không phù hợp vì không có ý phủ định ở vế trước."
+        },
+        "correct_answer": "✅ Đáp án đúng: A. so",
+        "sentence_explanation": "Hai vế của câu có mối quan hệ nguyên nhân-kết quả: vì mưa được dự đoán nên buổi dã ngoại phải hoãn. Liên từ 'so' phù hợp nhất để thể hiện mối quan hệ này.",
+        "translation": "Mưa được dự báo vào cuối tuần này, vì vậy buổi dã ngoại của văn phòng sẽ phải bị hoãn lại.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Predict (v): dự đoán.\n- Postpone (v): hoãn lại.",
+        "grammar_notes": "👉 Các liên từ kết hợp (coordinating conjunctions) như 'so', 'for', 'but', 'nor' được dùng để nối các mệnh đề độc lập. 'So' dùng để chỉ kết quả của một hành động hoặc sự kiện."
+      },
+      "en": {
+        "summary": "The second clause 'the office picnic will have to be postponed' is a consequence of the first clause 'Rain is predicted this weekend'. The conjunction 'so' is used to introduce a result or consequence, making it the most appropriate choice."
+      }
+    }
+  },
+  {
+    "id": 103,
+    "part": 5,
+    "question": "Use an alternative shipping firm if Greer Freight is unable to expedite delivery of ------- order.",
+    "options": {
+      "A": "you",
+      "B": "your",
+      "C": "yours",
+      "D": "yourselves"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "You (đại từ nhân xưng chủ ngữ/tân ngữ): 'bạn/anh/chị'. Không thể đứng trước danh từ 'order' để chỉ sở hữu.",
+          "B": "Your (tính từ sở hữu): 'của bạn/của anh/chị'. Dùng để chỉ sự sở hữu và đứng trước danh từ 'order'. Phù hợp nhất trong ngữ cảnh này.",
+          "C": "Yours (đại từ sở hữu): 'cái của bạn/của anh/chị'. Dùng để thay thế cho một danh từ đã được nhắc đến, không đứng trước danh từ.",
+          "D": "Yourselves (đại từ phản thân): 'chính các bạn/anh/chị'. Không phù hợp để chỉ sở hữu trong trường hợp này."
+        },
+        "correct_answer": "✅ Đáp án đúng: B. your",
+        "sentence_explanation": "Khoảng trống cần một tính từ sở hữu để bổ nghĩa cho danh từ 'order' (đơn hàng). 'Your' (của bạn) là lựa chọn đúng, chỉ ra rằng đơn hàng đó thuộc về người nhận lời khuyên.",
+        "translation": "Hãy sử dụng một công ty vận chuyển thay thế nếu Greer Freight không thể đẩy nhanh việc giao đơn hàng của bạn.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Alternative (adj): thay thế.\n- Shipping firm (n): công ty vận chuyển.\n- Expedite (v): đẩy nhanh, xúc tiến.\n- Delivery (n): sự giao hàng.",
+        "grammar_notes": "👉 Tính từ sở hữu (possessive adjectives) như 'my, your, his, her, its, our, their' luôn đứng trước danh từ để chỉ sự sở hữu."
+      },
+      "en": {
+        "summary": "The blank precedes the noun 'order' and requires a possessive adjective to indicate whose order it is. 'Your' is the possessive adjective corresponding to 'you', fitting the context that the order belongs to the recipient of the instruction."
+      }
+    }
+  },
+  {
+    "id": 104,
+    "part": 5,
+    "question": "The cafeteria is featuring dishes ------- different regions of the world this week.",
+    "options": {
+      "A": "over",
+      "B": "through",
+      "C": "into",
+      "D": "from"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Over (giới từ): 'khắp, trên'. Dùng để chỉ vị trí hoặc phạm vi. Không phù hợp để chỉ nguồn gốc món ăn.",
+          "B": "Through (giới từ): 'xuyên qua, thông qua'. Dùng để chỉ sự đi qua hoặc phương tiện. Không phù hợp.",
+          "C": "Into (giới từ): 'vào trong'. Dùng để chỉ hướng đi vào. Không phù hợp.",
+          "D": "From (giới từ): 'từ'. Dùng để chỉ nguồn gốc, xuất xứ. Phù hợp nhất với 'dishes from different regions' (các món ăn từ các vùng khác nhau)."
+        },
+        "correct_answer": "✅ Đáp án đúng: D. from",
+        "sentence_explanation": "Câu nói về nguồn gốc của các món ăn. Giới từ 'from' (từ) được sử dụng để chỉ nơi xuất xứ hoặc nguồn gốc, do đó 'dishes from different regions' là cách diễn đạt chính xác.",
+        "translation": "Quán ăn tự phục vụ đang giới thiệu các món ăn từ các vùng khác nhau trên thế giới trong tuần này.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Cafeteria (n): quán ăn tự phục vụ.\n- Feature (v): làm nổi bật, giới thiệu.\n- Region (n): vùng, miền.",
+        "grammar_notes": "👉 Giới từ 'from' được dùng để diễn tả nguồn gốc, xuất xứ của một vật hoặc người."
+      },
+      "en": {
+        "summary": "The sentence describes the origin of the dishes. The preposition 'from' is used to indicate the point of origin or source, making 'dishes from different regions' the grammatically and contextually correct phrase."
+      }
+    }
+  },
+  {
+    "id": 105,
+    "part": 5,
+    "question": "Ms. Patel is coming to Delhi today to visit possible ------- for her company's new warehouse.",
+    "options": {
+      "A": "locating",
+      "B": "locations",
+      "C": "located",
+      "D": "locate"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Locating (danh động từ/hiện tại phân từ): 'việc định vị' hoặc 'đang định vị'. Mặc dù có thể là danh từ nhưng không tự nhiên trong cụm 'possible locating'.",
+          "B": "Locations (danh từ số nhiều): 'các địa điểm'. Phù hợp với cụm 'possible locations' (các địa điểm tiềm năng).",
+          "C": "Located (quá khứ phân từ/tính từ): 'được đặt, nằm ở'. Là một tính từ, không thể đi sau 'possible' để làm tân ngữ.",
+          "D": "Locate (động từ nguyên mẫu): 'định vị, tìm vị trí'. Không phải là danh từ cần thiết ở đây."
+        },
+        "correct_answer": "✅ Đáp án đúng: B. locations",
+        "sentence_explanation": "Sau tính từ 'possible' cần một danh từ để chỉ những gì có thể. Trong ngữ cảnh xây dựng nhà kho, 'locations' (các địa điểm) là phù hợp nhất để chỉ các địa điểm tiềm năng mà Ms. Patel đến thăm.",
+        "translation": "Bà Patel đến Delhi hôm nay để thăm các địa điểm tiềm năng cho nhà kho mới của công ty bà.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Possible (adj): có thể, tiềm năng.\n- Warehouse (n): nhà kho.\n- Location (n): địa điểm.",
+        "grammar_notes": "👉 Cấu trúc 'possible + Noun' (danh từ) được dùng để chỉ những sự vật, địa điểm, khả năng có thể xảy ra hoặc tồn tại."
+      },
+      "en": {
+        "summary": "The phrase 'possible _______' requires a noun to complete the meaning. 'Locations' (plural noun) is the best fit, referring to potential sites for the new warehouse. 'Possible locating' is grammatically awkward and semantically less appropriate."
+      }
+    }
+  },
+  {
+    "id": 106,
+    "part": 5,
+    "question": "Clydeway, Inc., has grown dramatically ------- its beginnings as a small corner grocery store.",
+    "options": {
+      "A": "since",
+      "B": "such",
+      "C": "except",
+      "D": "however"
+    },
+    "answer": "A",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Since (giới từ/liên từ): 'kể từ khi'. Dùng để chỉ điểm thời gian bắt đầu một sự việc kéo dài đến hiện tại. Phù hợp với ngữ cảnh tăng trưởng 'kể từ' những ngày đầu.",
+          "B": "Such (tính từ/đại từ): 'như vậy, như thế'. Thường dùng để nhấn mạnh hoặc giới thiệu ví dụ. Không phù hợp để chỉ thời điểm bắt đầu.",
+          "C": "Except (giới từ/liên từ): 'ngoại trừ'. Không phù hợp với mối quan hệ thời gian.",
+          "D": "However (trạng từ): 'tuy nhiên'. Dùng để chỉ sự đối lập giữa hai mệnh đề. Không phù hợp ở đây."
+        },
+        "correct_answer": "✅ Đáp án đúng: A. since",
+        "sentence_explanation": "Câu mô tả sự tăng trưởng đáng kể của công ty 'kể từ' những ngày đầu thành lập. 'Since' là giới từ phù hợp nhất để chỉ mốc thời gian bắt đầu của sự tăng trưởng này.",
+        "translation": "Clydeway, Inc., đã phát triển vượt bậc kể từ những ngày đầu thành lập là một cửa hàng tạp hóa nhỏ ở góc phố.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Dramatically (adv): một cách đáng kể, mạnh mẽ.\n- Beginning (n): sự bắt đầu.\n- Grocery store (n): cửa hàng tạp hóa.",
+        "grammar_notes": "👉 Giới từ 'since' được sử dụng để chỉ một điểm thời gian trong quá khứ mà từ đó một hành động hoặc trạng thái tiếp tục cho đến hiện tại, thường đi với thì hiện tại hoàn thành."
+      },
+      "en": {
+        "summary": "The sentence indicates that Clydeway, Inc., has grown from a specific starting point in time. The preposition 'since' is correctly used to mark the beginning of a period of time, fitting the context of growth that originated from 'its beginnings'."
+      }
+    }
+  },
+  {
+    "id": 107,
+    "part": 5,
+    "question": "When booking a flight, it is wise to ------- the guidelines for luggage size on the airline's Web site.",
+    "options": {
+      "A": "check",
+      "B": "close",
+      "C": "approve",
+      "D": "list"
+    },
+    "answer": "A",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Check (động từ): 'kiểm tra'. Phù hợp với ngữ cảnh khuyên hành khách nên kiểm tra các quy định hành lý.",
+          "B": "Close (động từ): 'đóng'. Không có nghĩa trong ngữ cảnh kiểm tra quy định.",
+          "C": "Approve (động từ): 'phê duyệt'. Hành khách không có quyền phê duyệt quy định của hãng hàng không.",
+          "D": "List (động từ): 'liệt kê'. Hãng hàng không sẽ liệt kê các quy định, chứ không phải hành khách.",
+        },
+        "correct_answer": "✅ Đáp án đúng: A. check",
+        "sentence_explanation": "Lời khuyên là nên 'kiểm tra' các quy định về kích thước hành lý để đảm bảo tuân thủ. 'Check' (kiểm tra) là động từ phù hợp nhất trong trường hợp này.",
+        "translation": "Khi đặt vé máy bay, bạn nên kiểm tra các hướng dẫn về kích thước hành lý trên trang web của hãng hàng không.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Book (v): đặt (vé, phòng).\n- Wise (adj): khôn ngoan.\n- Guideline (n): hướng dẫn, quy định.\n- Luggage (n): hành lý.",
+        "grammar_notes": "👉 Cấu trúc 'it is wise to + V (bare infinitive)' dùng để đưa ra lời khuyên khôn ngoan. Động từ 'check' thường đi với 'guidelines' để thể hiện hành động xem xét thông tin."
+      },
+      "en": {
+        "summary": "The sentence advises an action regarding 'guidelines'. The most logical and common action a person would take with guidelines is to 'check' them to ensure compliance. 'Check' means to examine something in order to verify its accuracy or quality."
+      }
+    }
+  },
+  {
+    "id": 108,
+    "part": 5,
+    "question": "The melody is so ------- that the composer has simplified parts of it for live performances.",
+    "options": {
+      "A": "direct",
+      "B": "complex",
+      "C": "favorable",
+      "D": "helpful"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Direct (tính từ): 'trực tiếp, thẳng thắn'. Không liên quan đến việc cần đơn giản hóa.",
+          "B": "Complex (tính từ): 'phức tạp, rắc rối'. Phù hợp với ngữ cảnh nhạc sĩ phải 'đơn giản hóa' (simplified) một phần của nó, cho thấy bản nhạc ban đầu quá phức tạp.",
+          "C": "Favorable (tính từ): 'thuận lợi, có lợi'. Không phù hợp với việc cần đơn giản hóa.",
+          "D": "Helpful (tính từ): 'có ích'. Không phù hợp với việc cần đơn giản hóa.",
+        },
+        "correct_answer": "✅ Đáp án đúng: B. complex",
+        "sentence_explanation": "Vế sau của câu 'the composer has simplified parts of it' (nhạc sĩ đã đơn giản hóa một phần của nó) cho thấy rằng giai điệu ban đầu phải 'phức tạp' hoặc 'khó'. Do đó, 'complex' là tính từ phù hợp nhất.",
+        "translation": "Giai điệu quá phức tạp đến nỗi nhà soạn nhạc đã phải đơn giản hóa một phần để biểu diễn trực tiếp.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Melody (n): giai điệu.\n- Composer (n): nhà soạn nhạc.\n- Simplify (v): đơn giản hóa.\n- Performance (n): buổi biểu diễn.",
+        "grammar_notes": "👉 Cấu trúc 'so + adjective/adverb + that + clause' được dùng để diễn tả nguyên nhân và kết quả. Tính từ ở đây mô tả mức độ của giai điệu dẫn đến hành động đơn giản hóa."
+      },
+      "en": {
+        "summary": "The second part of the sentence states that 'the composer has simplified parts of it'. This action implies that the melody was originally intricate or difficult. 'Complex' (meaning intricate or complicated) is the adjective that best explains why simplification was necessary."
+      }
+    }
+  },
+  {
+    "id": 109,
+    "part": 5,
+    "question": "The test group found the illustrations in the appliance users' guide to be highly -------.",
+    "options": {
+      "A": "inform",
+      "B": "information",
+      "C": "informatively",
+      "D": "informative"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Inform (động từ): 'thông báo'. Không thể đứng sau 'to be highly' để bổ nghĩa cho danh từ.",
+          "B": "Information (danh từ): 'thông tin'. Không thể là tính từ bổ nghĩa cho 'illustrations'.",
+          "C": "Informatively (trạng từ): 'một cách nhiều thông tin'. Bổ nghĩa cho động từ, không phải tính từ bổ nghĩa cho danh từ.",
+          "D": "Informative (tính từ): 'cung cấp nhiều thông tin, có tính thông tin'. Phù hợp để mô tả 'illustrations' (minh họa) là hữu ích và chứa nhiều thông tin.",
+        },
+        "correct_answer": "✅ Đáp án đúng: D. informative",
+        "sentence_explanation": "Sau cấu trúc 'to be highly' cần một tính từ để bổ nghĩa cho danh từ 'illustrations' (minh họa). 'Informative' (có tính thông tin, hữu ích) là tính từ phù hợp nhất, chỉ ra rằng các hình minh họa rất hữu ích và cung cấp nhiều thông tin.",
+        "translation": "Nhóm thử nghiệm nhận thấy các hình minh họa trong hướng dẫn sử dụng thiết bị rất hữu ích.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Test group (n): nhóm thử nghiệm.\n- Illustration (n): hình minh họa.\n- Appliance (n): thiết bị gia dụng.\n- User's guide (n): hướng dẫn sử dụng.\n- Highly (adv): rất, cực kỳ.",
+        "grammar_notes": "👉 Cấu trúc 'to be + trạng từ + tính từ' (vd: to be highly informative) dùng để mô tả đặc điểm của chủ ngữ. Trong trường hợp này, 'informative' là tính từ bổ nghĩa cho 'illustrations'."
+      },
+      "en": {
+        "summary": "The phrase 'to be highly _______' requires an adjective to describe the quality of 'illustrations'. 'Informative' is an adjective meaning providing a lot of useful information, which perfectly fits the context of illustrations in a user's guide."
+      }
+    }
+  },
+  {
+    "id": 110,
+    "part": 5,
+    "question": "The directions for Masuda's do-it-yourself projects are comprehensive enough for ------- a novice builder.",
+    "options": {
+      "A": "right",
+      "B": "soon",
+      "C": "how",
+      "D": "even"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Right (tính từ/trạng từ): 'đúng, phải'. Không phù hợp để nhấn mạnh.",
+          "B": "Soon (trạng từ): 'sớm'. Chỉ thời gian. Không phù hợp.",
+          "C": "How (trạng từ): 'làm thế nào'. Chỉ cách thức. Không phù hợp.",
+          "D": "Even (trạng từ): 'ngay cả, thậm chí'. Dùng để nhấn mạnh rằng một điều gì đó bất ngờ hoặc cực đoan cũng đúng. Ở đây, các hướng dẫn đầy đủ đến mức 'ngay cả' một người mới bắt đầu cũng có thể làm theo.",
+        },
+        "correct_answer": "✅ Đáp án đúng: D. even",
+        "sentence_explanation": "Cụm 'comprehensive enough for... a novice builder' muốn nhấn mạnh rằng các hướng dẫn rất đầy đủ, đến mức 'ngay cả' một người mới bắt đầu cũng có thể hiểu và làm theo. 'Even' là trạng từ nhấn mạnh phù hợp nhất.",
+        "translation": "Các hướng dẫn cho các dự án tự làm của Masuda đủ toàn diện để ngay cả một thợ xây mới vào nghề cũng có thể thực hiện.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Direction (n): hướng dẫn.\n- Do-it-yourself (DIY) (adj): tự làm.\n- Project (n): dự án.\n- Comprehensive (adj): toàn diện, đầy đủ.\n- Novice (n): người mới bắt đầu.",
+        "grammar_notes": "👉 Trạng từ 'even' được đặt trước một danh từ hoặc cụm danh từ để nhấn mạnh, đặc biệt là khi sự việc được nhắc đến là bất ngờ hoặc vượt quá mong đợi."
+      },
+      "en": {
+        "summary": "The sentence implies that the directions are so comprehensive that they are suitable for someone who would normally find such tasks challenging. 'Even' is used here as an intensifier to emphasize that the directions are clear enough 'for a novice builder', which is somewhat unexpected, making it the best fit."
+      }
+    }
+  },
+  {
+    "id": 111,
+    "part": 5,
+    "question": "------- of the two candidates for the position had the necessary qualifications.",
+    "options": {
+      "A": "Neither",
+      "B": "Nobody",
+      "C": "None",
+      "D": "Nothing"
+    },
+    "answer": "A",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Neither (đại từ): 'không ai trong số hai người/vật'. Hoàn hảo cho trường hợp có 'the two candidates'.",
+          "B": "Nobody (đại từ): 'không ai'. Dùng cho số nhiều (hơn hai người).",
+          "C": "None (đại từ): 'không ai/không cái gì'. Dùng cho số nhiều (thường là ba người/vật trở lên).",
+          "D": "Nothing (đại từ): 'không cái gì'. Dùng cho vật, không phải người.",
+        },
+        "correct_answer": "✅ Đáp án đúng: A. Neither",
+        "sentence_explanation": "Cụm từ 'of the two candidates' (trong số hai ứng viên) giới hạn lựa chọn về số lượng. 'Neither' (không ai trong số hai) là đại từ duy nhất phù hợp để chỉ sự phủ định cho hai đối tượng.",
+        "translation": "Không ai trong số hai ứng viên cho vị trí này có đủ tiêu chuẩn cần thiết.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Candidate (n): ứng viên.\n- Position (n): vị trí (công việc).\n- Necessary (adj): cần thiết.\n- Qualification (n): phẩm chất, trình độ.",
+        "grammar_notes": "👉 'Neither' được dùng để chỉ hai đối tượng và có nghĩa phủ định. 'None' được dùng cho ba đối tượng trở lên. 'Nobody' dùng cho người nói chung."
+      },
+      "en": {
+        "summary": "The phrase 'of the two candidates' explicitly indicates that there are only two individuals being considered. 'Neither' is the correct pronoun to use when referring to 'not one and not the other' of two people or things. 'Nobody' and 'None' are typically used for groups of three or more, and 'Nothing' refers to objects."
+      }
+    }
+  },
+  {
+    "id": 112,
+    "part": 5,
+    "question": "The need for highly trained electricians in the construction ------- has grown rapidly in recent years.",
+    "options": {
+      "A": "employment",
+      "B": "activity",
+      "C": "knowledge",
+      "D": "industry"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Employment (danh từ): 'việc làm'. 'Construction employment' có thể có nghĩa, nhưng 'need for ... in the construction employment' không tự nhiên bằng 'industry'.",
+          "B": "Activity (danh từ): 'hoạt động'. 'Construction activity' cũng có thể, nhưng 'industry' bao hàm ý nghĩa tổng thể hơn.",
+          "C": "Knowledge (danh từ): 'kiến thức'. Không phù hợp về mặt ngữ nghĩa.",
+          "D": "Industry (danh từ): 'ngành công nghiệp'. 'Construction industry' là một cụm từ ghép phổ biến và phù hợp nhất để chỉ lĩnh vực mà thợ điện làm việc.",
+        },
+        "correct_answer": "✅ Đáp án đúng: D. industry",
+        "sentence_explanation": "Câu nói về nhu cầu đối với thợ điện trong một lĩnh vực cụ thể. 'Construction industry' (ngành công nghiệp xây dựng) là một cụm từ cố định và phù hợp nhất để chỉ lĩnh vực hoạt động của thợ điện.",
+        "translation": "Nhu cầu về thợ điện có tay nghề cao trong ngành xây dựng đã tăng nhanh trong những năm gần đây.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Highly trained (adj): được đào tạo bài bản, có tay nghề cao.\n- Electrician (n): thợ điện.\n- Construction (n): sự xây dựng.\n- Rapidly (adv): nhanh chóng.",
+        "grammar_notes": "👉 Việc lựa chọn danh từ phù hợp để tạo thành một cụm danh từ (collocation) có ý nghĩa là quan trọng. 'Construction industry' là một cụm từ ghép phổ biến và chính xác."
+      },
+      "en": {
+        "summary": "The blank needs a noun that describes the sector where electricians work. 'Construction industry' is a common collocation referring to the economic sector involved in building and infrastructure, making it the most appropriate choice to express where the demand for electricians has grown."
+      }
+    }
+  },
+  {
+    "id": 113,
+    "part": 5,
+    "question": "Ms. Daly will prepare a marketing budget and propose ------- during the client meeting.",
+    "options": {
+      "A": "those",
+      "B": "its",
+      "C": "it",
+      "D": "her"
+    },
+    "answer": "C",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Those (đại từ chỉ định số nhiều): 'những cái đó'. Không phù hợp vì 'marketing budget' là số ít.",
+          "B": "Its (tính từ sở hữu): 'của nó'. Dùng để chỉ sự sở hữu cho vật/sự vật số ít. Không phải là đại từ tân ngữ.",
+          "C": "It (đại từ nhân xưng tân ngữ/chủ ngữ): 'nó'. Dùng để thay thế cho 'a marketing budget' (số ít, vật). Phù hợp làm tân ngữ cho động từ 'propose'.",
+          "D": "Her (tính từ sở hữu/đại từ tân ngữ): 'của cô ấy' hoặc 'cô ấy'. Nếu là tân ngữ thì không phù hợp vì Ms. Daly sẽ đề xuất ngân sách, không phải đề xuất chính mình.",
+        },
+        "correct_answer": "✅ Đáp án đúng: C. it",
+        "sentence_explanation": "Câu cần một đại từ tân ngữ để thay thế cho 'a marketing budget' (một ngân sách tiếp thị), vốn là danh từ số ít, chỉ vật. 'It' là đại từ phù hợp nhất để làm tân ngữ cho động từ 'propose' (đề xuất).",
+        "translation": "Bà Daly sẽ chuẩn bị ngân sách tiếp thị và đề xuất nó trong cuộc họp khách hàng.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Prepare (v): chuẩn bị.\n- Marketing budget (n): ngân sách tiếp thị.\n- Propose (v): đề xuất.\n- Client meeting (n): cuộc họp khách hàng.",
+        "grammar_notes": "👉 Đại từ tân ngữ (object pronoun) 'it' được dùng để thay thế cho danh từ số ít, chỉ vật hoặc sự việc khi nó là tân ngữ của động từ."
+      },
+      "en": {
+        "summary": "The verb 'propose' requires an object. The object is implicitly 'a marketing budget' which is singular and inanimate. Therefore, the singular object pronoun 'it' is the correct choice to refer back to 'a marketing budget'."
+      }
+    }
+  },
+  {
+    "id": 114,
+    "part": 5,
+    "question": "Mr. Silva asked sales staff to ------- travel expenditures to help cut costs.",
+    "options": {
+      "A": "convince",
+      "B": "require",
+      "C": "decide",
+      "D": "limit"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Convince (động từ): 'thuyết phục'. Không phù hợp với 'travel expenditures'.",
+          "B": "Require (động từ): 'yêu cầu'. Có thể 'require expenditures' nhưng không phải để 'cut costs'.",
+          "C": "Decide (động từ): 'quyết định'. Không phù hợp với 'travel expenditures'.",
+          "D": "Limit (động từ): 'hạn chế'. Phù hợp nhất với mục tiêu 'to help cut costs' (giúp cắt giảm chi phí) bằng cách hạn chế chi tiêu đi lại.",
+        },
+        "correct_answer": "✅ Đáp án đúng: D. limit",
+        "sentence_explanation": "Mục đích là 'to help cut costs' (giúp cắt giảm chi phí). Để cắt giảm chi phí đi lại, nhân viên cần 'limit' (hạn chế) các khoản chi tiêu này. 'Limit' là động từ phù hợp nhất trong ngữ cảnh này.",
+        "translation": "Ông Silva yêu cầu nhân viên bán hàng hạn chế chi tiêu đi lại để giúp cắt giảm chi phí.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Sales staff (n): nhân viên bán hàng.\n- Travel expenditures (n): chi tiêu đi lại.\n- Cut costs (v): cắt giảm chi phí.",
+        "grammar_notes": "👉 Động từ 'limit' thường đi với các danh từ chỉ số lượng hoặc chi phí để diễn tả việc kiểm soát hoặc giảm bớt."
+      },
+      "en": {
+        "summary": "The objective of the action is 'to help cut costs'. To reduce travel expenditures and cut costs, the sales staff needs to 'limit' their spending. 'Limit' (meaning to restrict the amount or extent of something) is the most fitting verb in this context."
+      }
+    }
+  },
+  {
+    "id": 115,
+    "part": 5,
+    "question": "The city council will discuss certain policies, particularly those made ------- the previous administration.",
+    "options": {
+      "A": "any",
+      "B": "by",
+      "C": "to",
+      "D": "and"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Any (tính từ/đại từ): 'bất kỳ'. Không phù hợp để chỉ tác nhân.",
+          "B": "By (giới từ): 'bởi, do'. Dùng để chỉ người hoặc tổ chức thực hiện hành động (trong câu bị động hoặc ngữ cảnh tương tự). Phù hợp với 'policies made by the previous administration'.",
+          "C": "To (giới từ): 'đến, cho'. Dùng để chỉ mục đích hoặc đối tượng nhận. Không phù hợp.",
+          "D": "And (liên từ): 'và'. Dùng để nối các từ, cụm từ hoặc mệnh đề. Không phù hợp ở đây.",
+        },
+        "correct_answer": "✅ Đáp án đúng: B. by",
+        "sentence_explanation": "Các chính sách được 'made' (tạo ra/ban hành) bởi một cơ quan hoặc người. Giới từ 'by' được dùng để chỉ tác nhân thực hiện hành động, phù hợp với ngữ cảnh 'made by the previous administration' (được ban hành bởi chính quyền trước).",
+        "translation": "Hội đồng thành phố sẽ thảo luận về một số chính sách, đặc biệt là những chính sách được ban hành bởi chính quyền trước.",
+        "vocab_notes": "📘 Ghi nhớ:\n- City council (n): hội đồng thành phố.\n- Policy (n): chính sách.\n- Administration (n): chính quyền.",
+        "grammar_notes": "👉 Trong các cấu trúc bị động (ví dụ: 'made' ở đây có thể hiểu là past participle của verb 'make'), giới từ 'by' được dùng để chỉ người hoặc vật thực hiện hành động."
+      },
+      "en": {
+        "summary": "The phrase 'made _______ the previous administration' requires a preposition to indicate the agent responsible for making the policies. 'By' is the correct preposition to denote the doer of an action, especially in a passive or participle construction, such as 'policies made by the previous administration'."
+      }
+    }
+  },
+  {
+    "id": 116,
+    "part": 5,
+    "question": "Servers' tips are pooled at the end of each shift and divided evenly ----- the entire waitstaff.",
+    "options": {
+      "A": "onto",
+      "B": "among",
+      "C": "beside",
+      "D": "about"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Onto (giới từ): 'lên trên'. Dùng để chỉ sự chuyển động lên bề mặt. Không phù hợp.",
+          "B": "Among (giới từ): 'giữa, trong số'. Dùng để chỉ sự phân chia hoặc phân phối cho một nhóm từ ba người/vật trở lên. Phù hợp với 'the entire waitstaff' (toàn bộ nhân viên phục vụ).",
+          "C": "Beside (giới từ): 'bên cạnh'. Chỉ vị trí. Không phù hợp.",
+          "D": "About (giới từ): 'về, khoảng'. Không phù hợp.",
+        },
+        "correct_answer": "✅ Đáp án đúng: B. among",
+        "sentence_explanation": "Tiền boa được 'divided evenly' (chia đều) cho 'the entire waitstaff' (toàn bộ nhân viên phục vụ). Vì đây là một nhóm người (nhiều hơn hai), giới từ 'among' là lựa chọn chính xác để chỉ sự phân chia trong nhóm.",
+        "translation": "Tiền boa của nhân viên phục vụ được gom lại vào cuối mỗi ca và chia đều cho toàn bộ nhân viên phục vụ.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Tip (n): tiền boa.\n- Pool (v): gom chung, tập hợp lại.\n- Shift (n): ca làm việc.\n- Divide (v): chia.\n- Evenly (adv): đều đặn, công bằng.\n- Waitstaff (n): nhân viên phục vụ.",
+        "grammar_notes": "👉 Giới từ 'among' được sử dụng khi phân chia hoặc nói về mối quan hệ giữa ba người hoặc vật trở lên. 'Between' được dùng cho hai người/vật."
+      },
+      "en": {
+        "summary": "The sentence describes the distribution of tips to 'the entire waitstaff', which is a group of people. 'Among' is the correct preposition to use when distributing something to a group of three or more people or things. 'Divided evenly among' signifies fair distribution within the group."
+      }
+    }
+  },
+  {
+    "id": 117,
+    "part": 5,
+    "question": "Costpa Analytics Ltd. has made successful ------- in two emerging data companies.",
+    "options": {
+      "A": "investments",
+      "B": "invested",
+      "C": "invest",
+      "D": "investor"
+    },
+    "answer": "A",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Investments (danh từ số nhiều): 'các khoản đầu tư'. Phù hợp làm tân ngữ cho động từ 'made' và bổ nghĩa bởi tính từ 'successful'.",
+          "B": "Invested (động từ quá khứ đơn/quá khứ phân từ): 'đã đầu tư'. Không phù hợp làm danh từ tân ngữ.",
+          "C": "Invest (động từ nguyên mẫu): 'đầu tư'. Không phù hợp làm danh từ tân ngữ.",
+          "D": "Investor (danh từ chỉ người): 'nhà đầu tư'. Không phù hợp vì câu cần danh từ chỉ hành động hoặc kết quả của hành động đầu tư.",
+        },
+        "correct_answer": "✅ Đáp án đúng: A. investments",
+        "sentence_explanation": "Sau cụm động từ 'has made successful' cần một danh từ số nhiều làm tân ngữ, chỉ 'các khoản đầu tư' mà công ty đã thực hiện. 'Investments' là danh từ phù hợp nhất.",
+        "translation": "Costpa Analytics Ltd. đã thực hiện các khoản đầu tư thành công vào hai công ty dữ liệu mới nổi.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Successful (adj): thành công.\n- Emerging (adj): mới nổi, đang phát triển.\n- Data company (n): công ty dữ liệu.",
+        "grammar_notes": "👉 Cấu trúc 'make + Noun' là một collocation phổ biến (ví dụ: make a decision, make progress, make an investment). Ở đây, sau 'successful' (tính từ) là danh từ 'investments'."
+      },
+      "en": {
+        "summary": "The phrase 'has made successful _______' requires a plural noun to serve as the direct object of 'made' and be modified by the adjective 'successful'. 'Investments' (plural noun) means the action or process of investing money for profit or material result, which perfectly fits the context of activity in data companies."
+      }
+    }
+  },
+  {
+    "id": 118,
+    "part": 5,
+    "question": "Vallentrade manages clients' accounts more ------- than most other brokerage firms.",
+    "options": {
+      "A": "conserves",
+      "B": "conservative",
+      "C": "conservatively",
+      "D": "conserving"
+    },
+    "answer": "C",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Conserves (động từ chia ở thì hiện tại đơn ngôi thứ ba số ít): 'bảo tồn'. Không phù hợp để bổ nghĩa cho động từ 'manages'.",
+          "B": "Conservative (tính từ): 'bảo thủ, thận trọng'. Bổ nghĩa cho danh từ. Không phù hợp để bổ nghĩa cho cách quản lý.",
+          "C": "Conservatively (trạng từ): 'một cách thận trọng'. Bổ nghĩa cho động từ 'manages' và phù hợp với cấu trúc so sánh hơn 'more...than', chỉ cách thức quản lý.",
+          "D": "Conserving (hiện tại phân từ/danh động từ): 'bảo tồn'. Không phù hợp ở đây.",
+        },
+        "correct_answer": "✅ Đáp án đúng: C. conservatively",
+        "sentence_explanation": "Câu này đang so sánh cách Vallentrade quản lý tài khoản với các công ty môi giới khác. Cần một trạng từ để bổ nghĩa cho động từ 'manages' (quản lý) và phù hợp với cấu trúc so sánh hơn 'more...than'. 'Conservatively' (một cách thận trọng) là trạng từ phù hợp nhất.",
+        "translation": "Vallentrade quản lý tài khoản khách hàng một cách thận trọng hơn hầu hết các công ty môi giới khác.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Manage (v): quản lý.\n- Client (n): khách hàng.\n- Account (n): tài khoản.\n- Brokerage firm (n): công ty môi giới chứng khoán.\n- Conservative (adj): thận trọng, bảo thủ.\n- Conservatively (adv): một cách thận trọng.",
+        "grammar_notes": "👉 Khi so sánh cách thức một hành động được thực hiện, chúng ta sử dụng trạng từ. Cấu trúc 'more + trạng từ + than' là cách dùng đúng để so sánh hai động từ."
+      },
+      "en": {
+        "summary": "The sentence compares how Vallentrade manages accounts to how other firms do. Therefore, an adverb is needed to modify the verb 'manages' and fit the comparative structure 'more _______ than'. 'Conservatively' (meaning in a cautious or careful way) is the appropriate adverb to describe the manner of managing accounts."
+      }
+    }
+  },
+  {
+    "id": 119,
+    "part": 5,
+    "question": "The ideal operating temperature for the tablet computer is ------- 10 and 30 degrees Celsius.",
+    "options": {
+      "A": "between",
+      "B": "above",
+      "C": "in",
+      "D": "off"
+    },
+    "answer": "A",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Between (giới từ): 'giữa'. Dùng để chỉ khoảng giữa hai mốc (A và B). Phù hợp với '10 and 30 degrees Celsius'.",
+          "B": "Above (giới từ): 'trên'. Dùng để chỉ cao hơn một mốc nhất định. Không phù hợp để chỉ một khoảng cụ thể.",
+          "C": "In (giới từ): 'trong'. Dùng để chỉ vị trí bên trong. Không tự nhiên khi nói về khoảng nhiệt độ.",
+          "D": "Off (giới từ/trạng từ): 'ngoài, tắt'. Không phù hợp.",
+        },
+        "correct_answer": "✅ Đáp án đúng: A. between",
+        "sentence_explanation": "Cụm từ '10 and 30 degrees Celsius' chỉ rõ một khoảng nhiệt độ cụ thể. Giới từ 'between' (giữa) luôn được dùng để diễn tả một khoảng giới hạn bởi hai mốc, với cấu trúc 'between A and B'.",
+        "translation": "Nhiệt độ hoạt động lý tưởng cho máy tính bảng là từ 10 đến 30 độ C.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Ideal (adj): lý tưởng.\n- Operating temperature (n): nhiệt độ hoạt động.\n- Tablet computer (n): máy tính bảng.\n- Celsius (n): độ C.",
+        "grammar_notes": "👉 Cụm giới từ 'between X and Y' là một cấu trúc cố định dùng để chỉ một phạm vi hoặc khoảng cách giữa hai điểm hoặc hai giá trị."
+      },
+      "en": {
+        "summary": "The phrase '10 and 30 degrees Celsius' indicates a range. The preposition 'between' is used to specify a range or interval that lies from one point to another, always in the form 'between X and Y'. This perfectly fits the context of an ideal temperature range."
+      }
+    }
+  },
+  {
+    "id": 120,
+    "part": 5,
+    "question": "Of the people who have publicly introduced ------- at the Carpentry Club meetings, about half are commercial contractors.",
+    "options": {
+      "A": "their",
+      "B": "their own",
+      "C": "they",
+      "D": "themselves"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Their (tính từ sở hữu): 'của họ'. Bổ nghĩa cho danh từ. Không phù hợp vì động từ 'introduced' cần một tân ngữ trực tiếp là đại từ phản thân ở đây.",
+          "B": "Their own (cụm tính từ sở hữu): 'của chính họ'. Cũng không phù hợp làm tân ngữ trực tiếp mà là để nhấn mạnh sở hữu.",
+          "C": "They (đại từ nhân xưng chủ ngữ): 'họ'. Không phù hợp làm tân ngữ.",
+          "D": "Themselves (đại từ phản thân): 'chính họ'. Dùng khi chủ ngữ và tân ngữ của động từ là cùng một người/nhóm người (introduced themselves = tự giới thiệu). Phù hợp nhất trong ngữ cảnh này.",
+        },
+        "correct_answer": "✅ Đáp án đúng: D. themselves",
+        "sentence_explanation": "Trong câu này, những người (the people) đã 'introduced' (giới thiệu) chính họ. Khi chủ ngữ và tân ngữ của một động từ là cùng một người hoặc vật, chúng ta sử dụng đại từ phản thân. Do đó, 'themselves' là lựa chọn đúng.",
+        "translation": "Trong số những người đã tự giới thiệu tại các cuộc họp của Câu lạc bộ Mộc, khoảng một nửa là các nhà thầu thương mại.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Publicly (adv): công khai.\n- Introduce (v): giới thiệu.\n- Carpentry Club (n): Câu lạc bộ Mộc.\n- Commercial contractor (n): nhà thầu thương mại.",
+        "grammar_notes": "👉 Đại từ phản thân (reflexive pronoun) như 'themselves' được dùng khi hành động của động từ hướng trở lại chính chủ ngữ. Cụm 'introduce oneself/themselves' là cách nói thông thường để 'tự giới thiệu'."
+      },
+      "en": {
+        "summary": "The verb 'introduced' in this context implies that 'the people' are the ones performing the action and also receiving the action (introducing themselves). Therefore, a reflexive pronoun is required. 'Themselves' correctly reflects that the people introduced *themselves*."
+      }
+    }
+  },
+  {
+    "id": 121,
+    "part": 5,
+    "question": "On Thursday, the technician will be on Sratus Road ------- two gas stoves.",
+    "options": {
+      "A": "serviced",
+      "B": "service",
+      "C": "to service",
+      "D": "is servicing"
+    },
+    "answer": "C",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Serviced (quá khứ phân từ/quá khứ đơn): 'đã được bảo trì/đã bảo trì'. Không phù hợp để chỉ mục đích của hành động trong tương lai.",
+          "B": "Service (động từ nguyên mẫu): 'bảo trì'. Không đúng cấu trúc ngữ pháp để chỉ mục đích sau 'will be on'.",
+          "C": "To service (động từ nguyên mẫu có 'to' - infinitive of purpose): 'để bảo trì'. Dùng để chỉ mục đích của hành động. Hoàn hảo trong câu này.",
+          "D": "Is servicing (thì hiện tại tiếp diễn): 'đang bảo trì'. Không phù hợp vì đây là sự kiện trong tương lai và cần một cấu trúc chỉ mục đích.",
+        },
+        "correct_answer": "✅ Đáp án đúng: C. to service",
+        "sentence_explanation": "Câu này diễn tả mục đích của việc kỹ thuật viên sẽ có mặt trên đường Sratus. Cụm 'to + V (bare infinitive)' được dùng để chỉ mục đích ('infinitive of purpose'). Do đó, 'to service' (để bảo trì) là lựa chọn chính xác.",
+        "translation": "Vào thứ Năm, kỹ thuật viên sẽ có mặt trên Đường Sratus để bảo trì hai bếp ga.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Technician (n): kỹ thuật viên.\n- Service (v): bảo trì, sửa chữa.\n- Gas stove (n): bếp ga.",
+        "grammar_notes": "👉 Cấu trúc 'động từ + to V (bare infinitive)' thường dùng để diễn đạt mục đích của hành động. Ví dụ: 'He went to the store to buy milk' (Anh ấy đến cửa hàng để mua sữa)."
+      },
+      "en": {
+        "summary": "The sentence describes the purpose of the technician being on Sratus Road. The infinitive of purpose 'to service' is used to indicate why the technician will be there, making it the correct choice to express the intended action."
+      }
+    }
+  },
+  {
+    "id": 122,
+    "part": 5,
+    "question": "The spreadsheet ------- data on retail sales during the fourth quarter is attached.",
+    "options": {
+      "A": "contains",
+      "B": "contained",
+      "C": "containing",
+      "D": "containable"
+    },
+    "answer": "C",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Contains (động từ chia ở thì hiện tại đơn ngôi thứ ba số ít): 'chứa'. Nếu dùng 'contains', câu sẽ thành 'The spreadsheet contains data ... is attached', sai ngữ pháp vì có hai động từ chính 'contains' và 'is attached' mà không có liên từ.",
+          "B": "Contained (động từ quá khứ đơn/quá khứ phân từ): Tương tự như (A), không đúng cấu trúc nếu là động từ chính.",
+          "C": "Containing (hiện tại phân từ): 'chứa đựng'. Đây là một participle phrase (mệnh đề phân từ) bổ nghĩa cho 'the spreadsheet'. Câu có thể hiểu là 'The spreadsheet which contains data... is attached'. Phù hợp về ngữ pháp và ý nghĩa.",
+          "D": "Containable (tính từ): 'có thể chứa được'. Không phù hợp về mặt ngữ nghĩa và cấu trúc.",
+        },
+        "correct_answer": "✅ Đáp án đúng: C. containing",
+        "sentence_explanation": "Câu này có hai động từ: '_______ data' và 'is attached'. Để tránh có hai động từ chính mà không có liên từ, chúng ta cần một mệnh đề phân từ (participle phrase) để bổ nghĩa cho 'the spreadsheet'. 'Containing' (chứa đựng) là hiện tại phân từ phù hợp, hoạt động như một tính từ bổ nghĩa cho 'the spreadsheet'.",
+        "translation": "Bảng tính chứa dữ liệu về doanh số bán lẻ trong quý IV được đính kèm.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Spreadsheet (n): bảng tính.\n- Data (n): dữ liệu.\n- Retail sales (n): doanh số bán lẻ.\n- Fourth quarter (n): quý IV.\n- Attach (v): đính kèm.",
+        "grammar_notes": "👉 Mệnh đề phân từ (participle clause) thường được sử dụng để rút gọn mệnh đề quan hệ. 'The spreadsheet containing data' có nghĩa tương đương với 'The spreadsheet which contains data'."
+      },
+      "en": {
+        "summary": "The sentence structure 'The spreadsheet _______ data ... is attached' indicates that 'is attached' is the main verb of the sentence. Therefore, the blank needs a participle to form a participle phrase modifying 'the spreadsheet'. 'Containing' (present participle) acts as an adjective describing what data the spreadsheet holds, making the structure grammatically correct and semantically sound."
+      }
+    }
+  },
+  {
+    "id": 123,
+    "part": 5,
+    "question": "See our weekly promotional flyer for complete ------- of the discounted items.",
+    "options": {
+      "A": "exchange",
+      "B": "support",
+      "C": "receipts",
+      "D": "descriptions"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Exchange (danh từ): 'sự trao đổi'. Không phù hợp với nội dung của tờ rơi quảng cáo.",
+          "B": "Support (danh từ): 'sự hỗ trợ'. Không phù hợp.",
+          "C": "Receipts (danh từ số nhiều): 'biên lai'. Dùng khi mua hàng, không phải nội dung của tờ rơi quảng cáo.",
+          "D": "Descriptions (danh từ số nhiều): 'mô tả'. Phù hợp nhất, tờ rơi quảng cáo thường cung cấp 'mô tả đầy đủ' (complete descriptions) về các sản phẩm được giảm giá.",
+        },
+        "correct_answer": "✅ Đáp án đúng: D. descriptions",
+        "sentence_explanation": "Một tờ rơi quảng cáo ('promotional flyer') thường cung cấp thông tin chi tiết về các sản phẩm. 'Complete descriptions' (mô tả đầy đủ) là cụm từ chính xác để chỉ loại thông tin này về các mặt hàng giảm giá.",
+        "translation": "Hãy xem tờ rơi quảng cáo hàng tuần của chúng tôi để biết mô tả đầy đủ về các mặt hàng giảm giá.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Weekly (adj): hàng tuần.\n- Promotional (adj): quảng cáo, khuyến mại.\n- Flyer (n): tờ rơi.\n- Discounted (adj): được giảm giá.",
+        "grammar_notes": "👉 Cụm danh từ 'complete descriptions' là một collocation phổ biến để chỉ thông tin chi tiết và đầy đủ."
+      },
+      "en": {
+        "summary": "A 'promotional flyer' typically provides information about products. 'Complete descriptions' (meaning detailed accounts or portrayals) is the most logical content for a flyer about 'discounted items', as customers would need information to make purchasing decisions."
+      }
+    }
+  },
+  {
+    "id": 124,
+    "part": 5,
+    "question": "New salespeople are instructed to research the businesses of ------- customers before contacting them for the first time.",
+    "options": {
+      "A": "total",
+      "B": "potential",
+      "C": "equal",
+      "D": "factual"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Total (tính từ): 'tổng cộng'. Không phù hợp trong ngữ cảnh này.",
+          "B": "Potential (tính từ): 'tiềm năng'. 'Potential customers' (khách hàng tiềm năng) là những người có thể trở thành khách hàng. Phù hợp vì nhân viên kinh doanh nghiên cứu họ 'before contacting them for the first time' (trước khi liên hệ lần đầu tiên).",
+          "C": "Equal (tính từ): 'bằng nhau'. Không phù hợp.",
+          "D": "Factual (tính từ): 'có thật, thực tế'. Không phù hợp.",
+        },
+        "correct_answer": "✅ Đáp án đúng: B. potential",
+        "sentence_explanation": "Nhân viên kinh doanh mới được hướng dẫn nghiên cứu các doanh nghiệp của những người mà họ sẽ liên hệ 'lần đầu tiên'. Điều này ám chỉ họ chưa phải là khách hàng chính thức, mà là 'khách hàng tiềm năng' (potential customers).",
+        "translation": "Các nhân viên kinh doanh mới được hướng dẫn nghiên cứu các doanh nghiệp của các khách hàng tiềm năng trước khi liên hệ với họ lần đầu tiên.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Salesperson (n): nhân viên kinh doanh.\n- Instruct (v): hướng dẫn.\n- Research (v): nghiên cứu.\n- Contact (v): liên hệ.\n- Potential (adj): tiềm năng.",
+        "grammar_notes": "👉 Tính từ 'potential' thường kết hợp với các danh từ như 'customer', 'client', 'market' để chỉ khả năng hoặc tiềm năng trong tương lai."
+      },
+      "en": {
+        "summary": "The context specifies that salespeople research these individuals 'before contacting them for the first time', indicating they are not yet existing customers but rather prospective ones. 'Potential customers' refers to individuals or businesses that have the possibility of becoming customers, making 'potential' the most suitable adjective."
+      }
+    }
+  },
+  {
+    "id": 125,
+    "part": 5,
+    "question": "If you use online banking, bills can be paid ------- it is most convenient.",
+    "options": {
+      "A": "whenever",
+      "B": "simply",
+      "C": "accordingly",
+      "D": "quite"
+    },
+    "answer": "A",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Whenever (liên từ phụ thuộc): 'bất cứ khi nào'. Dùng để chỉ sự linh hoạt về thời gian, phù hợp với 'it is most convenient' (thuận tiện nhất).",
+          "B": "Simply (trạng từ): 'một cách đơn giản'. Bổ nghĩa cho động từ, không phù hợp để nối mệnh đề chỉ thời gian.",
+          "C": "Accordingly (trạng từ): 'do đó, theo đó'. Dùng để chỉ kết quả hoặc sự phù hợp. Không phù hợp ở đây.",
+          "D": "Quite (trạng từ): 'khá, hoàn toàn'. Dùng để nhấn mạnh mức độ. Không phù hợp.",
+        },
+        "correct_answer": "✅ Đáp án đúng: A. whenever",
+        "sentence_explanation": "Câu này nói về sự tiện lợi của ngân hàng trực tuyến, cho phép thanh toán hóa đơn 'bất cứ khi nào' người dùng thấy thuận tiện nhất. 'Whenever' là liên từ phụ thuộc phù hợp nhất để diễn tả ý nghĩa này.",
+        "translation": "Nếu bạn sử dụng ngân hàng trực tuyến, các hóa đơn có thể được thanh toán bất cứ khi nào bạn thấy thuận tiện nhất.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Online banking (n): ngân hàng trực tuyến.\n- Bill (n): hóa đơn.\n- Convenient (adj): thuận tiện.\n- Whenever (conj): bất cứ khi nào.",
+        "grammar_notes": "👉 'Whenever' có thể hoạt động như một liên từ phụ thuộc, giới thiệu một mệnh đề trạng ngữ chỉ thời gian, mang ý nghĩa 'at any time that' hoặc 'every time that'."
+      },
+      "en": {
+        "summary": "The sentence emphasizes the flexibility and convenience of online banking, allowing payments at any chosen time. 'Whenever' (meaning at whatever time; on whatever occasion) is the most suitable word to convey the idea of flexibility and convenience related to timing."
+      }
+    }
+  },
+  {
+    "id": 126,
+    "part": 5,
+    "question": "Our internship combines lectures with real-world projects to provide formal instruction ------- professional experience.",
+    "options": {
+      "A": "above all",
+      "B": "as well as",
+      "C": "now that",
+      "D": "in order to"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Above all (thành ngữ): 'trên hết, quan trọng nhất'. Không phù hợp để nối hai yếu tố ngang hàng.",
+          "B": "As well as (liên từ/giới từ): 'cũng như, và cả'. Dùng để nối hai yếu tố có vai trò tương đương. Phù hợp để kết hợp 'formal instruction' và 'professional experience'.",
+          "C": "Now that (liên từ phụ thuộc): 'bây giờ thì, vì rằng'. Dùng để chỉ lý do khi có sự thay đổi tình huống. Không phù hợp.",
+          "D": "In order to (cụm giới từ): 'để mà'. Dùng để chỉ mục đích. Không phù hợp để nối hai loại trải nghiệm.",
+        },
+        "correct_answer": "✅ Đáp án đúng: B. as well as",
+        "sentence_explanation": "Câu nói về việc chương trình thực tập cung cấp cả 'formal instruction' (hướng dẫn chính thức) và 'professional experience' (kinh nghiệm thực tế). Cụm 'as well as' (cũng như) là cách diễn đạt phù hợp nhất để liệt kê hai yếu tố bổ sung cho nhau.",
+        "translation": "Chương trình thực tập của chúng tôi kết hợp các bài giảng với các dự án thực tế để cung cấp cả hướng dẫn chính thức cũng như kinh nghiệm chuyên môn.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Internship (n): chương trình thực tập.\n- Combine (v): kết hợp.\n- Lecture (n): bài giảng.\n- Real-world project (n): dự án thực tế.\n- Formal instruction (n): hướng dẫn chính thức.\n- Professional experience (n): kinh nghiệm chuyên môn.",
+        "grammar_notes": "👉 'As well as' được dùng để thêm thông tin hoặc kết nối hai danh từ, cụm danh từ, động từ hoặc mệnh đề có vai trò tương đương."
+      },
+      "en": {
+        "summary": "The sentence lists two components that the internship provides: 'formal instruction' and 'professional experience'. The phrase 'as well as' is used to connect two equivalent items or ideas, meaning 'in addition to' or 'and also'. This correctly links the two types of benefits offered by the internship."
+      }
+    }
+  },
+  {
+    "id": 127,
+    "part": 5,
+    "question": "Employee ------- at Medmile Ventures include share options and scheduled raises.",
+    "options": {
+      "A": "beneficial",
+      "B": "beneficially",
+      "C": "benefits",
+      "D": "benefited"
+    },
+    "answer": "C",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Beneficial (tính từ): 'có lợi'. Không thể là chủ ngữ danh từ số nhiều.",
+          "B": "Beneficially (trạng từ): 'một cách có lợi'. Không thể là chủ ngữ.",
+          "C": "Benefits (danh từ số nhiều): 'các quyền lợi, phúc lợi'. Phù hợp làm chủ ngữ số nhiều và khớp với động từ 'include' (bao gồm). 'Share options and scheduled raises' là các loại phúc lợi.",
+          "D": "Benefited (động từ quá khứ đơn/quá khứ phân từ): 'đã hưởng lợi'. Không thể làm chủ ngữ danh từ.",
+        },
+        "correct_answer": "✅ Đáp án đúng: C. benefits",
+        "sentence_explanation": "Chủ ngữ của câu là 'Employee _______', và động từ là 'include' (số nhiều). Do đó, khoảng trống cần một danh từ số nhiều. 'Benefits' (phúc lợi) là phù hợp nhất, vì 'share options' (quyền chọn cổ phiếu) và 'scheduled raises' (tăng lương định kỳ) là những dạng phúc lợi dành cho nhân viên.",
+        "translation": "Các phúc lợi dành cho nhân viên tại Medmile Ventures bao gồm quyền chọn cổ phiếu và các đợt tăng lương định kỳ.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Employee (n): nhân viên.\n- Venture (n): dự án kinh doanh, liên doanh.\n- Share option (n): quyền chọn cổ phiếu.\n- Scheduled raise (n): đợt tăng lương theo lịch trình.\n- Benefit (n): phúc lợi, lợi ích.",
+        "grammar_notes": "👉 Danh từ 'benefits' ở dạng số nhiều là chủ ngữ phù hợp với động từ 'include' (số nhiều) và ý nghĩa của câu."
+      },
+      "en": {
+        "summary": "The sentence requires a plural noun to act as the subject for the plural verb 'include'. 'Benefits' (plural noun), meaning advantages or payments received by employees, perfectly fits the context, as 'share options and scheduled raises' are common types of employee benefits."
+      }
+    }
+  },
+  {
+    "id": 128,
+    "part": 5,
+    "question": "City ------- hope to get the necessary permits to build a twenty-story office building on Minerva Street.",
+    "options": {
+      "A": "agendas",
+      "B": "developers",
+      "C": "avenues",
+      "D": "boundaries"
+    },
+    "answer": "B",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Agendas (danh từ số nhiều): 'chương trình nghị sự'. Không phù hợp vì đây là thứ mà người 'hope to get permits'.",
+          "B": "Developers (danh từ số nhiều): 'các nhà phát triển/đầu tư (xây dựng)'. Phù hợp nhất vì họ là những người 'hope to get the necessary permits to build' (mong muốn có được giấy phép cần thiết để xây dựng).",
+          "C": "Avenues (danh từ số nhiều): 'đại lộ, con đường'. Không phù hợp.",
+          "D": "Boundaries (danh từ số nhiều): 'ranh giới'. Không phù hợp.",
+        },
+        "correct_answer": "✅ Đáp án đúng: B. developers",
+        "sentence_explanation": "Chủ ngữ của câu là người/tổ chức mong muốn có giấy phép để xây dựng một tòa nhà văn phòng. 'City developers' (các nhà phát triển đô thị) là những người hoặc công ty chuyên về việc xây dựng các công trình trong thành phố, nên đây là lựa chọn hợp lý nhất.",
+        "translation": "Các nhà phát triển đô thị hy vọng sẽ nhận được các giấy phép cần thiết để xây dựng một tòa nhà văn phòng hai mươi tầng trên phố Minerva.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Permit (n): giấy phép.\n- Twenty-story (adj): hai mươi tầng.\n- Office building (n): tòa nhà văn phòng.\n- Developer (n): nhà phát triển, chủ đầu tư.",
+        "grammar_notes": "👉 Việc lựa chọn danh từ phù hợp để làm chủ ngữ đòi hỏi phải hiểu rõ ngữ cảnh và vai trò của chủ thể trong câu."
+      },
+      "en": {
+        "summary": "The sentence describes entities that 'hope to get the necessary permits to build a twenty-story office building'. 'Developers' (meaning people or companies that develop land or property) are the ones typically involved in such building projects and would seek permits. The other options do not fit this context."
+      }
+    }
+  },
+  {
+    "id": 129,
+    "part": 5,
+    "question": "Compliance Department officers regularly monitor changes in the ------- framework.",
+    "options": {
+      "A": "regulate",
+      "B": "regulates",
+      "C": "regulator",
+      "D": "regulatory"
+    },
+    "answer": "D",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Regulate (động từ nguyên mẫu): 'điều chỉnh, quy định'. Không thể bổ nghĩa cho danh từ 'framework'.",
+          "B": "Regulates (động từ chia ở thì hiện tại đơn ngôi thứ ba số ít): 'điều chỉnh'. Không thể bổ nghĩa cho danh từ.",
+          "C": "Regulator (danh từ chỉ người/vật): 'người/cơ quan điều chỉnh, bộ điều chỉnh'. Không phù hợp để mô tả loại 'framework'.",
+          "D": "Regulatory (tính từ): 'mang tính quy định, điều tiết'. Phù hợp nhất để bổ nghĩa cho danh từ 'framework' (khuôn khổ). Cụm 'regulatory framework' là một collocation phổ biến.",
+        },
+        "correct_answer": "✅ Đáp án đúng: D. regulatory",
+        "sentence_explanation": "Trước danh từ 'framework' (khuôn khổ) cần một tính từ để mô tả bản chất của khuôn khổ đó. 'Regulatory' (mang tính quy định, điều tiết) là tính từ chính xác, tạo thành cụm 'regulatory framework' (khuôn khổ pháp lý/quy định), vốn được các cán bộ phòng tuân thủ giám sát.",
+        "translation": "Các cán bộ của Bộ phận Tuân thủ thường xuyên giám sát những thay đổi trong khuôn khổ pháp lý.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Compliance Department (n): Bộ phận Tuân thủ.\n- Officer (n): cán bộ.\n- Monitor (v): giám sát.\n- Change (n): sự thay đổi.\n- Framework (n): khuôn khổ.\n- Regulate (v): quy định, điều tiết.\n- Regulatory (adj): thuộc về quy định, điều tiết.",
+        "grammar_notes": "👉 Tính từ 'regulatory' thường được dùng để bổ nghĩa cho các danh từ liên quan đến luật pháp, quy định, chính sách, như 'regulatory body', 'regulatory authority', 'regulatory environment'."
+      },
+      "en": {
+        "summary": "The blank precedes the noun 'framework' and therefore requires an adjective to describe it. 'Regulatory' is an adjective meaning relating to the regulation or supervision of something, and 'regulatory framework' is a common collocation referring to the system of rules and regulations. This fits the context of a Compliance Department monitoring changes."
+      }
+    }
+  },
+  {
+    "id": 130,
+    "part": 5,
+    "question": "The X250 portable heater achieves the desirable ------- without reaching especially high temperatures.",
+    "options": {
+      "A": "practices",
+      "B": "factors",
+      "C": "outcomes",
+      "D": "dimensions"
+    },
+    "answer": "C",
+    "explanation": {
+      "vi": {
+        "option_analysis": {
+          "A": "Practices (danh từ số nhiều): 'các thực hành, tập quán'. Không phù hợp trong ngữ cảnh này.",
+          "B": "Factors (danh từ số nhiều): 'các yếu tố'. Không phù hợp vì máy sưởi tạo ra cái gì đó 'desirable' (đáng mong muốn) chứ không phải 'yếu tố'.",
+          "C": "Outcomes (danh từ số nhiều): 'các kết quả'. Phù hợp nhất, vì máy sưởi đạt được 'các kết quả đáng mong muốn' (desirable outcomes) như việc sưởi ấm mà không quá nóng.",
+          "D": "Dimensions (danh từ số nhiều): 'kích thước'. Không phù hợp.",
+        },
+        "correct_answer": "✅ Đáp án đúng: C. outcomes",
+        "sentence_explanation": "Máy sưởi đạt được 'desirable _______' (những điều đáng mong muốn) như việc không đạt đến nhiệt độ quá cao nhưng vẫn sưởi ấm hiệu quả. 'Outcomes' (kết quả) là danh từ phù hợp nhất để mô tả những gì thiết bị này mang lại một cách thành công.",
+        "translation": "Máy sưởi di động X250 đạt được hiệu quả mong muốn mà không cần đạt đến nhiệt độ quá cao.",
+        "vocab_notes": "📘 Ghi nhớ:\n- Portable (adj): di động.\n- Heater (n): máy sưởi.\n- Achieve (v): đạt được.\n- Desirable (adj): đáng mong muốn.\n- Especially (adv): đặc biệt.\n- Temperature (n): nhiệt độ.\n- Outcome (n): kết quả.",
+        "grammar_notes": "👉 Danh từ 'outcomes' (kết quả) thường đi với các động từ như 'achieve', 'yield', 'produce' để chỉ những điều đạt được từ một quá trình hoặc hành động."
+      },
+      "en": {
+        "summary": "The sentence states that the heater 'achieves the desirable _______' while maintaining a specific condition ('without reaching especially high temperatures'). This implies that the heater delivers certain positive results. 'Outcomes' (meaning results or consequences) is the most fitting noun to describe what the heater successfully delivers."
+      }
+    }
+  }
+]
+```

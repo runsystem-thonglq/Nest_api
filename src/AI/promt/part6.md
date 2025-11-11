@@ -12,8 +12,8 @@ ví dụ: 101. Lawrence Paper is dedicated to helping employees fulfill their po
 
 ---
 
-YÊU CẦU XUẤT DỮ LIỆU DẠNG JSON, ĐẢM BẢO CÓ THỂ PARSE RA ĐƯỢC KHI GỌI JSON.parse MÀ KHÔNG LỖIKHÔNG CÓ VĂN BẢN THỪA.  
-Mỗi câu hỏi là một object có cấu trúc:
+YÊU CẦU XUẤT DỮ LIỆU DẠNG JSON, ĐẢM BẢO CÓ THỂ PARSE RA ĐƯỢC KHI G+ỌI JSON.parse MÀ KHÔNG LỖIKHÔNG CÓ VĂN BẢN THỪA.  
+Mỗi câu hỏi là một object có cấu trúc, vi du:
 
 ```json
 [

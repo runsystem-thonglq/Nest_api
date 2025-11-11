@@ -19,6 +19,9 @@ async function bootstrap() {
   // Security
   app.use(helmet());
 
+  // Set global API prefix
+  app.setGlobalPrefix("api");
+
   // CORS
   app.enableCors();
 
@@ -30,7 +33,8 @@ async function bootstrap() {
     .addBearerAuth()
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup("api", app, document);
+  // Serve Swagger UI at /api-docs to avoid colliding with the API global prefix
+  SwaggerModule.setup("api-docs", app, document);
 
   app.useGlobalFilters(new AllExceptionsFilter());
 
